@@ -1,0 +1,260 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+% Bibliography stuff
+\addbibresource{landrent.bib}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+changebars
+enumitem
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Political Economy, Crises, Rent: Voids and Disconnections"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent, Crises"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Compared to that of their colleagues in the natural sciences, the relation
+ between social scientists and the world outside academia is extremely problemat
+ic.
+ When astrophysicists successfully observed gravitational waves recently,
+ as Einstein's theory of general relativity had predicted over a century
+ ago, it was cause for celebration.
+ But when the world capitalist system went into a global crisis in 2007-2008,
+ as Marx's theory of capital had predicted about a century and a half ago,
+ the reaction was quite different.
+ A global crisis is not something to celebrate, of course, and just about
+ five months after U.S.
+ president George W.
+ Bush announced the crisis on national television, 
+\emph on
+Time
+\emph default
+ Magazine's European edition had Marx's picture on its cover 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "time2whatwould"
+
+\end_inset
+
+.
+ But despite the fact that until the crisis became impossible to deny and
+ even after it was well underway mainstream economists had been singing
+ the praises of 
+\begin_inset Quotes eld
+\end_inset
+
+the Great Moderation
+\begin_inset Quotes erd
+\end_inset
+
+ – a period of allegedly reduced macroeconomic volatility – and patting
+ themselves on the back for their macroeconomic policies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "20thegreat,hakkio22thegreat"
+
+\end_inset
+
+, had supported financial deregulation based on the belief that private
+ financial markets would 
+\begin_inset Quotes eld
+\end_inset
+
+correctly
+\begin_inset Quotes erd
+\end_inset
+
+ price risk, and had neither predicted the crisis nor could explain it (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "bezemer2009noone"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "bezemer2011thecredit"
+
+\end_inset
+
+), heads of state did not denounce them as charlatans, throw them out them
+ out from their temples of power, and replace them with Marxists, Georgists,
+ post-Keynesians, or Minskyians.
+ In fact, despite its intellectual success, critical political economy fared
+ far worse.
+ Amplified by waves of refugees from the war-torn Middle East and by barbaric
+ jhadi terrorism, right-wing nationalism combined with reaction to the crisis,
+ leading to the rise Trump, May, and others whose policies exactly opposite
+ what social scientists who had diagnosed the crisis would have recommended.
+\end_layout
+
+\begin_layout Standard
+Perhaps things could be no other way.
+ Social science has certain necessary, ontological properties that make
+ its relation to the outside world problematic.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capital/references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local References
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

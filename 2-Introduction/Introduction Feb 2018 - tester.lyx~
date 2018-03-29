@@ -1,0 +1,1825 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+
+%%%% The following are preliminary customizations for LyX 2.3 built-in BibLaTeX that give, IMHO,
+%%%% a much better format than the default CMS author-date.
+%%%% See Section 3.11 of the Biblatex manual for these and (so many) other commands.
+%%%% 
+%%%% Once satisfied that these things work, put them in the general start-up file.
+%\renewcommand{\nameyeardelim}{\addspace}
+%\renewcommand{\postnotedelim}{\addcolon\space}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+enumitem
+todonotes
+subequations
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref true
+\pdf_title "Rethinking Land Rent: Towards a coherent, pluralist political economy"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Land Rent"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\biblio_options doi=only,bookpages=false,isbn=false,compresspages
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+After over two decades of relative neglect, land-rent theory may be experiencing
+ a revival.
+ Several recent essays find existing theory deficient, give reasons for
+ its current condition, suggest ways forward, and generally urge its renewal.
+ These similarities notwithstanding, they differ in their explanations for
+ rent theory's current state and their suggestions for renewal.
+ Despite these differences they share certain preconceptions, some of which
+ I challenge here.
+\end_layout
+
+\begin_layout Standard
+Perhaps the most fundamental of these is the near universal tendency to
+ treat land rent primarily – almost solely – from the standpoint of what
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "27-87"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+ calls 
+\begin_inset Quotes eld
+\end_inset
+
+the duality of praxis
+\begin_inset Quotes erd
+\end_inset
+
+ while ignoring what I shall call 
+\begin_inset Quotes eld
+\end_inset
+
+societal duality.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The limitations of language pose a real obstacle here.
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+ actually counterpoises 
+\begin_inset Quotes eld
+\end_inset
+
+Society
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Individuals,
+\begin_inset Quotes erd
+\end_inset
+
+ but this is problematic for several reasons.
+ When he discusses 
+\begin_inset Quotes eld
+\end_inset
+
+society
+\begin_inset Quotes erd
+\end_inset
+
+ he is really discussing social structure.
+ The term 
+\begin_inset Quotes eld
+\end_inset
+
+society
+\begin_inset Quotes erd
+\end_inset
+
+ itself commonly describes situations that can be much more ad hoc, informal,
+ and intimate: for example, a small group gathering around the water cooler
+ in an office and discussing the Academy Awards can be described as being
+ social and participating in society.
+ But although social structure is present in this setting, describing the
+ setting as 
+\begin_inset Quotes eld
+\end_inset
+
+society
+\begin_inset Quotes erd
+\end_inset
+
+ would be a misuse of how 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+ uses the term.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Social structure,
+\begin_inset Quotes erd
+\end_inset
+
+ on the other hand, is also problematic because it suggests an ahistorical
+ 
+\begin_inset Quotes eld
+\end_inset
+
+structuralism
+\begin_inset Quotes erd
+\end_inset
+
+ that reifies society as structural determinations sweep along lifeless
+ träger who are just the bearers of social structure 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "thompson1978thepoverty"
+literal "false"
+
+\end_inset
+
+.
+ The notion I am getting at is much more satisfactorily labelled 
+\begin_inset Quotes eld
+\end_inset
+
+societal
+\begin_inset Quotes erd
+\end_inset
+
+ if one understands this term as connoting that which is large-scale and
+ society-wide 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "etzioni1968theactive"
+literal "false"
+
+\end_inset
+
+.
+ So instead of 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+'s (
+\begin_inset CommandInset citation
+LatexCommand citebyear
+after "38"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+) 
+\begin_inset Quotes eld
+\end_inset
+
+duality of structure,
+\begin_inset Quotes erd
+\end_inset
+
+ I use 
+\begin_inset Quotes eld
+\end_inset
+
+societal duality.
+\begin_inset Quotes erd
+\end_inset
+
+ Whichever term one uses, what 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "37, original emphasis"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+means by it is that 
+\begin_inset Quotes eld
+\end_inset
+
+society is both the ever-present 
+\emph on
+condition
+\emph default
+ (material cause) and the continually repro-duced 
+\emph on
+outcome
+\emph default
+ of human agency.
+\end_layout
+
+\begin_layout Plain Layout
+But this does not get us entirely out of the woods.
+ Bhaskar's use of 
+\begin_inset Quotes eld
+\end_inset
+
+Individuals
+\begin_inset Quotes erd
+\end_inset
+
+ is even more problematic.
+ While it is true that some social scientists (and politicians) reduce the
+ human world to asocial, ahistorical 
+\begin_inset Quotes eld
+\end_inset
+
+individuals
+\begin_inset Quotes erd
+\end_inset
+
+ (e.g.
+ in methodological individualism), thankfully such practice is becoming
+ increasingly rare.
+ Certainly, outside of perhaps mainstream/neoclassical economics, the literature
+ on land rent is not overly concerned with individuals.
+ But it does emphasize firms, industries, government agencies and policies,
+ localities, and social actors, even though the latter often stand in as
+ personifications for broader social categories (
+\begin_inset Quotes eld
+\end_inset
+
+landlords,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+tenants,
+\begin_inset Quotes erd
+\end_inset
+
+ etc.).
+ In relation to individuals, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "37-38, original emphasis"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+ uses 
+\begin_inset Quotes eld
+\end_inset
+
+praxis
+\begin_inset Quotes erd
+\end_inset
+
+ to denote conscious, intentional human activity, and it too has a dual
+ character in that 
+\begin_inset Quotes eld
+\end_inset
+
+praxis is both work, that is conscious 
+\emph on
+production
+\emph default
+, and (normally unconscious) 
+\emph on
+reproduction
+\emph default
+ of the conditions of production, that is society.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+While the literature on land rent in economic geography does somewhat address
+ this dual character, it also goes beyond land rent as the praxis of individuals
+, organizations, and the like.
+ Nonetheless, it rarely gets to the societal level.
+ And there simply is no single English term that adequately captures the
+ domain in which the land-rent literature operates.
+\end_layout
+
+\begin_layout Plain Layout
+One might think that 
+\begin_inset Quotes eld
+\end_inset
+
+microeconomic,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic,
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+meso-
+\begin_inset Quotes erd
+\end_inset
+
+ levels would work, but such terms bring their own problems.
+ One is that the first two of these are strongly associated with mainstream
+ economics, which economic geography has largely rejected over the past
+ forty-five years.
+ Using these terms now could suggest bringing mainstream economics back
+ into economic geography.
+ While I do not wish to exclude all of mainstream economics out of hand,
+ neither do I wish to open the door to wholesale importation of mainstream
+ economics.
+\end_layout
+
+\begin_layout Plain Layout
+Second, the mainstream makes a sharp distinction between microeconomics
+ and macroeconomics – so much so that they sometimes seem to be entirely
+ separate.
+ Nonetheless, mainstream macroeconomists has a strong affinity, if not an
+ absolute requirement for, 
+\begin_inset Quotes eld
+\end_inset
+
+microfoundations
+\begin_inset Quotes erd
+\end_inset
+
+ in macroeconomics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wren-lewis2012microfounded"
+literal "false"
+
+\end_inset
+
+.
+ This suggests, and in many ways is required by, methodological individualism,
+ which is still prominent in mainstream economics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "janssen2006microfoundations"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+after "29-34"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+ critique of methodological individualism – and indeed of all 
+\begin_inset Quotes eld
+\end_inset
+
+one-way
+\begin_inset Quotes erd
+\end_inset
+
+ methodological approaches – implies that this particular kind of connection
+ between the praxis and societal levels is illegitimate.
+ So what at first appears to be a bridge between micro and macro is in fact
+ a bridge falling down.
+\end_layout
+
+\begin_layout Plain Layout
+Third, in heterodox economics the micro- and macro- levels are at once separate
+ yet closely related.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "3"
+key "mearman2007teaching"
+literal "false"
+
+\end_inset
+
+ states a basic principle of heterodox economics: 
+\begin_inset Quotes eld
+\end_inset
+
+While theories of the individual are uesful, so are theories of aggregate
+ or collective outcomes.
+ Further, neither the individual nor the aggregate can be understood in
+ isolation from the other.
+\begin_inset Quotes erd
+\end_inset
+
+ This is entirely consistent with 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+'s methodological analysis, which argues that the societal and praxis levels
+ are distinct but mutually interdependent.
+ This is an extremely important but very subtle difference between heterodox
+ and mainstream economics, and this distinction is too easily lost by using
+ the mainstream labels.
+\end_layout
+
+\begin_layout Plain Layout
+Fourth, in economic geography the terms can easily be muddled even further.
+ As I am using the term here, 
+\begin_inset Quotes eld
+\end_inset
+
+societal
+\begin_inset Quotes erd
+\end_inset
+
+ refers to society as a whole and to processes that actually exist at the
+ level of society as a whole.
+ But there necessarily is some correlation between 
+\begin_inset Quotes eld
+\end_inset
+
+society as a whole
+\begin_inset Quotes erd
+\end_inset
+
+ and geographic areas, such as nation states, continents, or the global
+ economy.
+ So it is easy to use 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic geography
+\begin_inset Quotes erd
+\end_inset
+
+ in a way that confuses and subtly elides societal processes (i.e.
+ an ontologically real stratum of the world at which society-wide occur)
+ and geographically large-scale processes.
+ For example, economic crises are inherently societal but need not be global,
+ while international trade is inherently global but need not be societal.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Peck_2016_Macroeconomic"
+literal "false"
+
+\end_inset
+
+ labels as 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic geography
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+literal "false"
+
+\end_inset
+
+'s (
+\begin_inset CommandInset citation
+LatexCommand citebyear
+key "hudson2016risingpowers"
+literal "false"
+
+\end_inset
+
+) paper on uneven global development, even though several of the global
+ processes 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+literal "false"
+
+\end_inset
+
+ discusses are not macroeconomic (in the usual sense) while some macroeconomic
+ processes that are not geographically global, such as growing inequality
+ and the decline of union density in the U.S., have geographically global
+ ramifications.
+ For similar reasons, I am tempted to use 
+\begin_inset Quotes eld
+\end_inset
+
+local
+\begin_inset Quotes erd
+\end_inset
+
+ instead of 
+\begin_inset Quotes eld
+\end_inset
+
+praxis
+\begin_inset Quotes erd
+\end_inset
+
+ as substitute labels for 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+'s 
+\begin_inset Quotes eld
+\end_inset
+
+individual
+\begin_inset Quotes erd
+\end_inset
+
+ level, but 
+\begin_inset Quotes eld
+\end_inset
+
+local
+\begin_inset Quotes erd
+\end_inset
+
+ is too easily misinterpreted as geographically local rather than as individual
+ and primary social relations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This might be surprising, but consider Haila's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "haila1990thetheory"
+literal "false"
+
+\end_inset
+
+ seminal review of land rent theory between roughly 1970 and 1990.
+ She identifies three groups of questions around which she organizes the
+ literature:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=
+\backslash
+alph*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+How does rent emerge?
+\end_layout
+
+\begin_layout Enumerate
+Who or what are its agents, and what are their behavioral patterns and social
+ relations?
+\end_layout
+
+\begin_layout Enumerate
+What is the economic role of rent?
+\end_layout
+
+\begin_layout Standard
+If microeconomics pertains to individuals, firms, etc., the second question
+ self-evidently falls within this realm.
+ The first question deals with the 
+\emph on
+mechanisms
+\emph default
+ by which rent comes into being, and to address this question the theory
+ employs behavior and activities of 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use below to rewrite this section
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "1, 21"
+key "ward2016theshitty"
+literal "false"
+
+\end_inset
+
+ give a thorough history of land-rent theory, describing the literature
+ as filled with 
+\begin_inset Quotes eld
+\end_inset
+
+confusion and conflict
+\begin_inset Quotes erd
+\end_inset
+
+ and needing rennovation, with heterodox theory in particular having 
+\begin_inset Quotes eld
+\end_inset
+
+fallen into a state of dilapidation.
+\begin_inset Quotes erd
+\end_inset
+
+ They attribute this to three characteristic tendencies of geographic political
+ economy in the late 1980s.
+ (1) Rejection of structuralism undermined concern with land rent as a broad
+ economic category and shifted attention to the institutions and actors
+ involved in processes related to land rent, as well as to economic rents
+ and fictitious capital in general; (2) still heavily influenced Marxian
+ political economy, scholars deemphasized market prices in favor of labor
+ values and therefore neglected the bid-rent mechanism as a way to understand
+ land markets; and (3) confusion about absolute rent hobbled understanding
+ of the dynamics of not only land rent but also of other economic rents,
+ such as intellectual property rights, that were becoming increasinly important
+ in contemporary capitalism.
+ As a way to move forward, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016theshitty"
+literal "false"
+
+\end_inset
+
+ propose a broad, if sketchy, theoretical framework in which variations
+ in productivity and utility between land parcels create conditions for
+ differential rents, while supply shortages of particular kinds of land
+ create conditions for monopoly rents.
+ They insinuate that neoclassical theory, with its bid-rent construct, is
+ the best candidate for yielding insights into contermporary differential
+ rents and that institutional theory can serve the same purpose with monopoly
+ rents.
+ A merger of these two approaches could then be redirected to investigate
+ 
+\begin_inset Quotes eld
+\end_inset
+
+how capital flows through land,
+\begin_inset Quotes erd
+\end_inset
+
+ thereby avoiding the mistake of conflating land and capital and exposing
+ contradictions between the two.
+\end_layout
+
+\begin_layout Standard
+Others writing on the subject take a similar tack, assessing land-rent theory's
+ decrepit condition and suggesting how a revived theory could help shed
+ light on crucial contemporary issues.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "anderson2014classmonopoly"
+literal "false"
+
+\end_inset
+
+ notes that land rent is almost completely absent from the copious literature
+ on neoliberal cities and crisis and ascribes the 
+\begin_inset Quotes eld
+\end_inset
+
+loss of interest
+\begin_inset Quotes erd
+\end_inset
+
+ in rent since the 1990s to the cultural turn in urban studies, which pointed
+ the field away from more economic topics.
+ He then argues that class monopoly rent could be very useful for understanding
+ neoliberal cities and their crises.
+ Similarly, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "136-137"
+key "christophers2016forreal"
+literal "false"
+
+\end_inset
+
+ describes land (and land rent) as having been 
+\begin_inset Quotes eld
+\end_inset
+
+theoretically side-lined
+\begin_inset Quotes erd
+\end_inset
+
+ but attributes this to rent's status as 
+\begin_inset Quotes eld
+\end_inset
+
+fictitious capital
+\begin_inset Quotes erd
+\end_inset
+
+ in both Marxian and Polanyian traditions: 
+\begin_inset Quotes eld
+\end_inset
+
+Faced with an array of real and fictitious commodities and, in particular,
+ of real and fictitious capitals ..., is it any wonder that theorists have
+ focused on the real stuff and made the fictitious a secondary consideration?
+\begin_inset Quotes erd
+\end_inset
+
+ His remedy, therefore, is to jetison the notion of fictitious capital and
+ to treat land as a real commodity.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Elsewhere in his essay 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "135"
+key "christophers2016forreal"
+literal "false"
+
+\end_inset
+
+ quotes 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "elden2010landterrain"
+literal "false"
+
+\end_inset
+
+, who maintains that land 
+\begin_inset Quotes eld
+\end_inset
+
+is not something that can be created but is a scarce resource.
+\begin_inset Quotes erd
+\end_inset
+
+ Accepting this common assumption about land and still classifying land
+ as a commodity implies rejecting the usual Marxist practice of treating
+ 
+\begin_inset Quotes eld
+\end_inset
+
+commodities
+\begin_inset Quotes erd
+\end_inset
+
+ as marketed products of labor.
+ Below I argue that land 
+\emph on
+often is
+\emph default
+ a product of human labor, so that 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "christophers2016forreal"
+literal "false"
+
+\end_inset
+
+ and others are wrong about the supply of land being fixed, permanent, and
+ not humanly created and therefore also wrong to use land as justification
+ for broadening the concept of a 
+\begin_inset Quotes eld
+\end_inset
+
+commodity
+\begin_inset Quotes erd
+\end_inset
+
+ to include things that are not products of human labor.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "park2014landrent"
+literal "false"
+
+\end_inset
+
+ is another example.
+ After reviewing debates concerning land rent before the period of 
+\begin_inset Quotes eld
+\end_inset
+
+rupture
+\begin_inset Quotes erd
+\end_inset
+
+ in the late 1980s, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "99"
+key "park2014landrent"
+literal "false"
+
+\end_inset
+
+ describes the subsequent period as one of 
+\begin_inset Quotes eld
+\end_inset
+
+premature stagnation
+\begin_inset Quotes erd
+\end_inset
+
+ and attributes this to four causes.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "haila1990thetheory"
+literal "false"
+
+\end_inset
+
+ had described land-rent theory as having gone through three phases: 
+\begin_inset Quotes eld
+\end_inset
+
+consensus
+\begin_inset Quotes erd
+\end_inset
+
+ during the 1970s, 
+\begin_inset Quotes eld
+\end_inset
+
+transition
+\begin_inset Quotes erd
+\end_inset
+
+ from the late 1970s to early 1980s, and 
+\begin_inset Quotes eld
+\end_inset
+
+rupture
+\begin_inset Quotes erd
+\end_inset
+
+ after the late 1980s.
+ She also had interpreted land-rent theory as dealing with (1) mechanisms
+ of land-rent extraction, (2) social relations of property and rent, and
+ (3) the economic role of land rent.
+ 
+\end_layout
+
+\end_inset
+
+ One is only partial: land-rent mechanisms were neglected because interest
+ shifted to the social relations of land rent and to land rent's economic
+ role.
+ Geographical political economy's critique and rejection of neoclassical
+ urban economics, coupled with the latter's emphasis on land-rent mechanisms,
+ only added to this neglect.
+ A second cause was failure to come even close to a consensus about absolute
+ rent, with differences of opinion about: the necessity of a low organic
+ composition of capital for absolute rent to exist; the distinction, if
+ any, between absolute rent and monopoly rent; historical conditions for
+ absolute rent to be important; and the possibility that something resembling
+ absolute rent could arise from transaction costs, monitoring costs, and
+ risk compensation.
+ Third, confusion over the distinction between rent paid for land versus
+ rent paid for use of a building.
+ And fourth, the rupture itself, between what 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "haila1990thetheory"
+literal "false"
+
+\end_inset
+
+ had called 
+\begin_inset Quotes eld
+\end_inset
+
+ideographic
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+nomothetic
+\begin_inset Quotes erd
+\end_inset
+
+ rent theorists: i.e., those who understand land rent as being highly contingent
+ and therefore requiring specific empirical study in concrete historical/institu
+tional contexts versus those who believe land rent undercapitalsm has a
+ certain general lawfulness.
+ Interestingly, he points out the relevance recent work on land rent in
+ mainstream economics has for Marxian and other heterodox theories of land
+ rent.
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "park2014landrent"
+literal "false"
+
+\end_inset
+
+ then sketches a way forward through a research program that (1) develops
+ a consistent theory of land-rent mechanisms, (2) resolves issues surrounding
+ distinctions between absolute and monopoly rents, (3) identifies what the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+product of the land
+\begin_inset Quotes erd
+\end_inset
+
+ means in an urban context, and (4) successfully translates agrarian theories
+ of land-rent to an urbanized economy.
+ 
+\end_layout
+
+\begin_layout Standard
+While these authors are correct in their diagnoses that land-rent theory
+ has been neglected and in a state of decline, their prescriptions share
+ one common feature: they all understand land-rent in the context of what
+ one might call 
+\begin_inset Quotes eld
+\end_inset
+
+microeconomic geography.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+With some trepedation, I borrow, or perhaps ape, mainstream economics' distincti
+on between microeconomic and macroeconomic.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Peck_2016_Macroeconomic"
+literal "false"
+
+\end_inset
+
+ uses 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic geography
+\begin_inset Quotes erd
+\end_inset
+
+ to characterize Hudson's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "hudson2016risingpowers"
+literal "false"
+
+\end_inset
+
+ account of global economic change under neoliberalism.
+ But here 
+\begin_inset Quotes eld
+\end_inset
+
+macro
+\begin_inset Quotes erd
+\end_inset
+
+ signals large geographic scale (global or continental as opposed to neighborhoo
+d, local, or perhps regional), whereas in economics it distinguishes collective,
+ economy-wide from individual or even industry-wide economic processes.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+For opening paragraph
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lainton2013rethinking"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lainton2013theclassical"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+For second paragraph - Macro
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "beitel2016circuits,florida4thereal"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+For elsewhere
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balardini1demandand"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "emmett1frankh"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "foldvary1themarginalists"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gaffney2008keeping"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "goodman2008whereare"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "munro2012landand"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "williams2010bichler"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sungyoonkang2010information"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ecobomakis2003onabsolute"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ramirez06marxstheory"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vercellone2008thenew"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Revision up to here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A recent review of the history of land-rent theory characterize it as filled
+ with 
+\begin_inset Quotes eld
+\end_inset
+
+confusion
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+c\SpecialChar breakableslash
+onfusion and conflict,
+\begin_inset Quotes erd
+\end_inset
+
+ and particularly heterodox land-rent theory having 
+\begin_inset Quotes eld
+\end_inset
+
+fallen into a state of dilapidation
+\begin_inset Quotes erd
+\end_inset
+
+ and needing renovation 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "1, 21"
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes erd
+\end_inset
+
+ throughout its history.
+ In particular, they single out contemporary as 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+(p.
+ 21) and in need of renovation .
+ Based on their analysis of the reasons for this decline, they briefly offer
+ a blueprint fqor reviving land-rent theory and encourage debate around
+ this project.
+\end_layout
+
+\begin_layout Standard
+In this they are not alone.
+ Several other scholars also have recently called attention to land-rent
+ theory's decrepit condition and offered prescriptions for its renewal.
+ But although they share a general consensus regarding land-rent theory's
+ poor condition and the desirability of reviving it, they vary both in their
+ diagnoses of what is wrong with the theory and in their proposals for reviving
+ it.
+ In some instances, such differences may be reconcilable, or even minor,
+ with complementary-but-different positions on the subject readily capable
+ of being combined: it is a matter of 
+\begin_inset Quotes eld
+\end_inset
+
+both/and.
+\begin_inset Quotes erd
+\end_inset
+
+ In other cases, possibilities for reconciliation are not ob\SpecialChar breakableslash
+vious and different
+ positions seem to be starkly opposed: 
+\begin_inset Quotes eld
+\end_inset
+
+either/or
+\begin_inset Quotes erd
+\end_inset
+
+ appears to be the only possibility.
+ In such instances, engagement and debate might resolve conflict between
+ positions, or at least bring to light why such resolution is impossible.
+ Perhaps such debate would result in dropping one approach in favor of another.
+ At the very least it could highlight strengths and weaknesses in different
+ positions.
+ Yet among the various proposals currently on the table, I know of no such
+ debates.
+ Instead, a more 
+\begin_inset Quotes eld
+\end_inset
+
+tribal
+\begin_inset Quotes erd
+\end_inset
+
+ pattern of disengagement and isolation seems likely, with different approaches
+ going their own ways and ignoring the others.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This conclusion follows from a particular reading of the history of land-rent
+ theory in the larger context of economic geography.
+ See Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:History"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To some extent the present essay hopes to forestall this by insisting on
+ 
+\emph on
+theoretical coherence
+\emph default
+: not only in land-rent theory itself but in conjunction with the larger
+ body of heterodox political economy, including both geographical political
+ economy and heterodox economics.
+ In other words, the essay rethinks land-rent theory in several ways, all
+ of which potentially link land-rent theory to broader currents of contemporary
+ heterodox political-economy.
+ This is not to say that this is the only legitimate way to theorize land-rent:
+ other ways are certainly possible and may yield important insights.
+ But a trans-disciplinary political-economic approach can be an extraordinarily
+ powerful tool, and the challenge for advocates of alternative approaches
+ is to demonstrate that any alternative is at least equally powerful.
+ It may be that a specific theory of land-rent is better able to explain
+ an isolated case, particularly if the theory employs 
+\emph on
+ad hoc
+\emph default
+ concepts tailored to the case.
+ But the requirement of broader theoretical coherence implies that any specific
+ land-rent theory must be consistent with and part of a larger theoretical
+ corpus and that the evaluation of competing theories of land rent must
+ involve the larger corpus as a whole.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is not to say that two or more competing theories of land rent cannot
+ 
+\emph on
+both
+\emph default
+ be consistent with a 
+\emph on
+single
+\emph default
+, broader theoretical framework.
+ Such possibilities are always open.
+ But in such cases, adjudication between the competitors cannot be confined
+ solely to land rent itself and must instead evaluate the competitors 
+\emph on
+as part of
+\emph default
+ the larger framework.
+ Similarly, a single element in land-rent theory may be compatible within
+ two or more broader frameworks.
+ In such cases, rather than just letting the land-rent component stand by
+ itself or arbitrarily choosing one of the larger frameworks, evaluation
+ of alternatives also requires evaluating the single land-rent theory in
+ the context of the competing, larger frameworks.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Motivating Concerns
+\end_layout
+
+\begin_layout Standard
+Several concerns motivate this approach.
+ Most fundamental is the fragmentation of economic geography since the early
+ 1990s: growing fragmentation over the past two-and-a-half decades contributed
+ to land-rent theory's decline three ways.
+ First, to the extent to which land-rent theory was present in a corpus
+ of scholarship in which different tendencies associated with similar tendencies
+ in the larger body of economic geography scholarship, fragmentation in
+ the latter tended to 
+\emph on
+pulverize
+\emph default
+ land-rent theory, shattering whatever wholeness and cohesiveness it might
+ have had.
+ Second, pulverization of land-rent theory encouraged different approaches
+ to become isolated from each other, and this in turn allowed them to 
+\emph on
+immunize
+\emph default
+ themselves from external criticism: a given approach could become self-referent
+ial and give itself license to ignore alternative approaches that might
+ otherwise be its competitors or critics.
+ Fragmentation also 
+\emph on
+impoverished
+\emph default
+ land-rent theory in a number of ways.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Revision up to here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It undermined land-rent theory's cohesiveness, and it isolated different
+ approaches to economic geography from each other and from important strands
+ of heterodox scholarship in other social science disciplines.
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:History"
+
+\end_inset
+
+ below, discusses the history of economic geography and land-rent theory
+ and explains how economic geography's fragmentation eroded land-rent theory's
+ cohesiveness.
+ As for isolation, it had two closely related, detrimental effects.
+ 
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Maybe cite Aalbers & Christophers on housing.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On one hand, fragmentation-
+\emph on
+cum
+\emph default
+-isolation allows self-referential, safe-spaces for scholarship that may
+ seem valid within a self-selected intellectual cocoon, but that is obviously
+ invalid, at least without major revision, when considered in a larger intellect
+ual context.
+ This is not mainly a matter of different paradigms: although debates between
+ paradigms can be fruitful and therefore desirable, they are extremely complex
+ and difficult because paradigmatic differences are so very basic.
+ Instead, within 
+\emph on
+a common 
+\emph default
+paradigm, such intellectual siloing can prevent incompatible theoretical
+ interpretations from having to confront each other, and thereby prevent
+ each from being supplanted by the other, combined in a new synthesis, or
+ exposed as requiring reconsideration and modification in order to be consistent
+ with other, related bodies of scholarship.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Interestingly, the 
+\size normal
+\emph on
+Journal of Economic Geography
+\emph default
+ was established in 2001 with the express goal of encouraging interchange
+ between economists and economic geographers.
+ But economists contributing to the journal have overwhelmingly been mainstream
+ economists, while economic geographers mostly have heterodox leanings 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sheppard2011geographical"
+literal "true"
+
+\end_inset
+
+.
+ It is therefore unsurprising that in the pages of the journal one can see
+ sharp divisions between the two disciplines and seemingly insurmountable
+ obstacles in a cross-paradigmatic 
+\emph on
+\lang american
+methodenstreit
+\emph default
+\lang english
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "garretsen2011thejournal"
+literal "true"
+
+\end_inset
+
+.
+ With some irony, heterodox economists – who are far more likely to have
+ productive interaction with today's economic geographers – have largely
+ been absent from the journal.
+ Given how little explicit geography one finds in contemporary heterodox
+ economics, this is unsurprising, but it also may reflect the predispositions
+ of the journal's economist reviewers to act as gatekeepers, confining participa
+tion by the economics profession to the mainstream.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the other hand, even when a particular theoretical intervention is valid
+ on its own terms, siloing cuts it off from other, complementary threads
+ within the same theoretical framework.
+ This impoverishes the larger framework and all its components.
+ Breaking down such walls between 
+\begin_inset Quotes eld
+\end_inset
+
+tribes
+\begin_inset Quotes erd
+\end_inset
+
+ in today's economic geography and between geographical political economy
+ itself and related heterodox scholarship in other social science disciplines
+ has great potential to enrich all of contemporary heterodox political economy.
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Examples"
+
+\end_inset
+
+has several examples of how land-rent theory might fruitfully combine with
+ heterodox scholarship focused on other topics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Continue here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another concern stems from the Crisis of the Early Twenty-First Century,
+ or what for the sake of brevity I shall refer to here as 
+\begin_inset Quotes eld
+\end_inset
+
+Crisis-21.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Use the footnote from earlier drafts.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A third concern is closely related to the crisis and the inadequacy of most
+ analyses of it with regard to the role of land-rent: land-rent theory's
+ preoccupation with micro- and meso-level mechanisms of rent extraction
+ and distribution and its almost complete neglect of land rent as a macroeconomi
+c and macro-geographical process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Rethinking Rent/references"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local
+inverted 0
+status collapsed
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

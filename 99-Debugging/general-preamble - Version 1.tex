@@ -1,0 +1,168 @@
+% Standard packages to always use
+
+
+% % % % MEMOIR RECOMMENDED PACKAGES % % % %
+% See Appendix A of Memoir User Manual
+%\usepackage{etex} % - Don't use: "in most cases the etex pakage is no longer necessary. 
+\usepackage{url}
+\usepackage{fixltx2e}
+\usepackage{alltt}
+\usepackage{graphicx}
+\usepackage{xcolor} % xcolor is an enhanced version of color
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{fontenc}
+\usepackage{pifont}
+
+
+% % % % AARON DEFAZIO RECOMMENDED PACKAGES
+% The following is based on Aaron Defazio's Setup Guide for thesis writing in LyX. See http://www.aarondefazio.com/tangentially/?p=19
+% % % % % % % % % % % % % %
+
+% % Version Control % %
+%\usepackage{svn-multi} %	Only use these two commands if versions of the document(s)
+%\svnid{$Id$} %				are to be maintained by the Subversion VCS.
+%
+% I prefer git:
+%\usepackage{gitinfo2} % See the gitinfo2 documentation to set this up.
+%\usepackage{latexgit} % Choose between gitinfo2 and latexgit
+
+%
+% This is Aaron's original version. Various LyX options call hyperref and set other, incompatible options. Make this conditional.
+%	See https://tex.stackexchange.com/questions/16199/test-if-a-package-or-package-option-is-loaded for this approach
+% Lots of this setting of hyperref is done in myMemoir. Decide on what should go where and get rid of the EXCESS.
+\@ifpackageloaded{hyperref}
+{ %
+	\hypersetup{hyperindex=true}
+}
+{ %
+    \usepackage[hyperindex=true,
+        bookmarks=true,
+        colorlinks=true,
+        pdfborder=0,
+        pagebackref=false,
+        citecolor=blue,
+        plainpages=false,
+        pdfpagelabels,
+        hyperfootnotes=true]{hyperref} % Assume this version is at least 2006/11/15, so don't need memhfixc. See Memoir Manual p. xxix.
+}
+
+\usepackage[all]{hypcap}
+\usepackage{hypcap}
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+%\usepackage{makeidx} Included in Memoir
+\usepackage{cleveref}
+
+
+% % % % Problems with Memoir & LyX compatibility % % % %
+% 	LyX implements subfigures by loading the subfig package; in turn, the subfig package loads the captions package.
+%	But Memoir disables its own internal caption customization commands whenever the captions package is available.
+%	Furthermore, I couldn't get subfig to stop loading the captions package.
+%	Probably move this stuff into myMemoir area.
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption} % See https://longair.net/blog/2009/11/11/lyx-tips-for-thesis-writing/ for settings. He also sets labelsep=endash, but I prefer the default colon.
+\usepackage{subfig} % Explicitly load the two packages.
+\DeclareSubrefFormat{subbold}{\textbf{#2}} % Will boldface the subfloat identifier, not the float's.
+\captionsetup[figure]{labelfont={bf}}%----------------------- added newly
+\captionsetup[subfloat]{labelfont={bf},subrefformat=subbold}%
+
+
+% % % % Packages used to customize appearance of special content % % % %
+%\usepackage{float} Duplicates functionality built into Memoir (see p. 169 of Manual), and because of this causes problems when used. Also see
+% https://tex.stackexchange.com/questions/23726/error-in-memoir-command-newfloat-already-defined
+\usepackage{url} % Allow linebreaks in url's
+\urlstyle{sf}
+\renewcommand{\sfdefault}{uop}
+\usepackage[scaled]{beramono} % Bera Mono version of Bitstream Vera Mono fonts 
+\usepackage{pifont} % PostScript standard Symbol and Dingbats fonts
+\usepackage{rotating} % Rotation tools, including rotated full-page floats
+\usepackage{multirow} % Allows tabular cells spanning multiple rows
+\usepackage{relsize} % Allows changing size relative to surrounding text 
+\usepackage{xspace} % Determines if if a space should be left in the text or deleted.
+\usepackage{listings} % For typesetting source code
+
+
+
+% % % % Special packages needed % % % %
+\usepackage{refcount} % Counter operations with label references -- uses section number, etc. as value of the counter.
+
+% Redefine (Memoir's & Epigraph package) epigraph width
+%	This is set in myMemoir, but you can reset it here.
+\setlength{\epigraphwidth}{.65\linewidth}
+
+
+% Bibliography stuff -- add the bibliography resource in the individual document preambles.
+% Bibliography Options (I can't get bookseries to work, but it should. See p. 61 of the biblatex-chicago documentation at http://mirror.hmc.edu/ctan/macros/latex/exptl/biblatex-contrib/biblatex-chicago/doc/biblatex-chicago.pdf)
+\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,compresspages}
+%\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,bookseries=false,compresspages}
+
+
+%%%% Use what is, IMHO, a much better format than the default CMS author-date.
+%%%% See Section 3.11 of the Biblatex manual for these and (so many) other commands.
+%%%% 
+%%%% Note that these commands have to be delayed until after the \begin{document} command because LyX doesn't load BibLaTeX until just before it.
+\AtBeginDocument{
+\renewcommand{\nameyeardelim}{\addspace}
+\renewcommand{\postnotedelim}{\addcolon\space}
+}
+
+
+
+% % % % Cosmetics % % % %
+\setbeforesecskip{-2em}
+\setbeforesubsecskip{-2em}
+\captionnamefont{\bfseries\Large\sffamily} % To make Figure 1:, Table 1:, etc. bold.
+
+% Temporary cosmetics
+\addtolength{\absleftindent}{-5em}
+\addtolength{\absrightindent}{-5em}
+
+
+
+
+
+
+%%%% inputenc commands to fix character encoding. %%%%
+% Using Document > Settings > Language: Encoding ... Language default in LyX automatically adds a \usepackage[latin9]{inputenc} to the LaTeX file.
+% So valid inputenc commands are valid here.
+
+% The following command(s) fix an error generated by the inputenc package, "Package inputenc Error Unicode char (u+200B)
+%	See inputenc documentation, pp. 3-4 (http://ftp.math.purdue.edu/mirrors/ctan.org/macros/latex/base/inputenc.pdf) for an explanation why inputenc does not define all utf8 characters and how to add undefined characters
+%	See http://www.fileformat.info/info/unicode/char/200B/index.htm for the definition of u+200B as a zero-width space
+%	See http://heyrod.com/snippets/zero-width-space-char-in-html-and-latex.html for how to implement zero-width space in LaTeX by using \hspace{(0pt)}
+\DeclareUnicodeCharacter{200B}{\hspace{0pt}}
+
+%\DeclareUnicodeCharacter{00E4}{\"a}
+%\DeclareUnicodeCharacter{00E9}{\'{e}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%% IMHO, this gives a much better format than the default CMS author-date.
+%%%% See Section 3.11 of the Biblatex manual for these and (so many) other commands.
+%%%% 
+%%%% Note that these commands have to be delayed until after the \begin{document} command because LyX doesn't load BibLaTeX until just before it.
+\AtBeginDocument{
+\renewcommand{\nameyeardelim}{\addspace}
+\renewcommand{\postnotedelim}{\addcolon\space}
+}

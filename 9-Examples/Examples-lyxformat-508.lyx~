@@ -1,0 +1,352 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+% Bibliography stuff
+\addbibresource{landrent.bib}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+changebars
+enumitem
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Examples"
+
+\end_inset
+
+Examples for a Research Program
+\end_layout
+
+\begin_layout Standard
+Some examples here will illustrate the potential of breaking down such walls
+ and joining land-rent theory with currently disconnected subjects.
+ These examples will also demonstrate the kind of research associated with
+ a research program focused on the goal of broad theoretical coherence and
+ will provide a nascent road map for reviving land-rent theory within such
+ a program.
+ Among the examples, some apply anywhere, while others have global scale.
+ But some only make sense within the context of an individual, existing
+ nation state.
+ For these I use examples from the United States: because space limitations
+ preclude discussion of multiple sets of examples, with each set pertaining
+ to specific national circumstances; because situating such examples within
+ a single national context highlights synergies and complementarities between
+ the examples, thereby demonstrating the potential richness of an integrative
+ research program such as the one advocated here and because I am most familiar
+ with the U.S.
+ So for illustration, take just three topics commonly studied outside economic
+ geography – the political economy of labor, value theory, and speculative
+ asset investment – and consider how they may be combined with land-rent
+ theory.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Several social science disciplines study the political economy of labor,
+ while research on value theory or speculative asset investment is primarily
+ located in heterodox economics.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Start with labor.
+ Here research on minimum-wage legislation is the low-hanging fruit.
+ Heterodox economists have used geographical data on adjacent jurisdictions
+ to study changes when one jurisdiction increases its minimum wage but the
+ other does not 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dube20minimum"
+
+\end_inset
+
+; they find that modest increases in the minimum wage are associated with
+ reduced employment flows (e.g., separations) but not stocks (e.g., employment
+ levels).
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This research is heavily empirical and – to influence policy – uses language
+ with purchase in mainstream economics.
+ Although all empirical research necessarily involves theory, empirical
+ findings can based on one theoretical framework can sometimes be reinterpreted
+ within another.
+ Throughout this paper I sometimes employ findings from mainstream economics
+ (on land values, on collateral effects, etc.) this way.
+ For a more explicitly heterodox discussion of minimum wages and a critique
+ of mainstream theory, see 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bechtold2014neoclassical"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+ A review of minimum-wage research since 2000 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "schmitt2013whydoes"
+
+\end_inset
+
+considers the state of the art to be best exemplified by this geographically
+ based, heterodox research.
+\end_layout
+
+\begin_layout Standard
+How can land-rent research tie into this? On one hand, if workers on one
+ side of a political boundary earn more due to minimum-wage legislation,
+ then location in the higher-paying jurisdiction is valuable to them, and
+ accordingly residential locations for minimum-wage workers in the jurisdiction
+ may command higher rents.
+ Conversely, if employers obtain a lower rate of profit in high-wage areas
+ due to higher labor costs, then one would expect commercial land values
+ and rents to be lower than in jurisdictions with lower minimum-wage levels.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Actually, a substantial body of research finds modest minimum wage increases
+ often correlate with 
+\emph on
+increased
+\emph default
+ profitability, due to reduced absenteeism, efficiency-wage effects, etc.
+ See 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schmitt2013whydoes"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ Land-rent theory suggests that spatial differences in wages and profits
+ due to minimum-wage legislation would be reflected, at least in part, by
+ differences in land values and rent due to legislated wage differences.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Continue here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another concern stems from the Crisis of the Early Twenty-First Century,
+ or what for the sake of brevity I shall refer to here as 
+\begin_inset Quotes eld
+\end_inset
+
+Crisis-21.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Use the footnote from earlier drafts.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A third concern is closely related to the crisis and the inadequacy of most
+ analyses of it with regard to the role of land-rent: land-rent theory's
+ preoccupation with micro- and meso-level mechanisms of rent extraction
+ and distribution and its almost complete neglect of land rent as a macroeconomi
+c and macro-geographical process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capital/references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local References
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,364 @@
+<map version="freeplane 1.6.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Rethinking Rent" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1521058796602" STYLE="oval"><hook NAME="MapStyle" zoom="0.75">
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.ok">
+<icon BUILTIN="button_ok"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.needs_action">
+<icon BUILTIN="messagebox_warning"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.floating_node">
+<cloud COLOR="#ffffff" SHAPE="ARC"/>
+<edge STYLE="hide_edge"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.connection" COLOR="#606060" STYLE="fork">
+<font NAME="Arial" SIZE="10" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" COLOR="#ff0000">
+<icon BUILTIN="yes"/>
+<font NAME="Liberation Sans" SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.question">
+<icon BUILTIN="help"/>
+<font NAME="Aharoni" SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.key" COLOR="#996600">
+<icon BUILTIN="password"/>
+<font NAME="Liberation Sans" SIZE="10" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.idea">
+<icon BUILTIN="idea"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.note" COLOR="#990000">
+<font NAME="Liberation Sans" SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.date" COLOR="#0033ff">
+<icon BUILTIN="calendar"/>
+<font NAME="Liberation Sans" SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.website" COLOR="#006633">
+<font NAME="Liberation Sans" SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.list" COLOR="#cc6600">
+<icon BUILTIN="list"/>
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.quotation" COLOR="#338800" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.definition" COLOR="#666600">
+<font NAME="Liberation Sans" SIZE="10" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.description" COLOR="#996600">
+<font NAME="Liberation Sans" SIZE="10" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.pending" COLOR="#b3b95c">
+<font NAME="Liberation Sans" SIZE="10"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Sections" POSITION="right" ID="ID_120038716" CREATED="1521059289403" MODIFIED="1521952438268">
+<edge COLOR="#ff0000"/>
+<node TEXT="Leadin" ID="ID_213669198" CREATED="1521078919431" MODIFIED="1521078925251"/>
+<node TEXT="Motivation" FOLDED="true" ID="ID_103873908" CREATED="1521059345018" MODIFIED="1521952012997">
+<node TEXT="Divorce Between Geography &amp; Heterodox" ID="ID_57027085" CREATED="1521059509470" MODIFIED="1521059537543"/>
+<node TEXT="Decay of Rent" ID="ID_695505411" CREATED="1521059538541" MODIFIED="1521059547143"/>
+<node ID="ID_270694313" CREATED="1521059548037" MODIFIED="1521059718836"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Micro only, <b><i>No crisis</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Agricultural Basis" ID="ID_1714050456" CREATED="1521059557797" MODIFIED="1521059570007"/>
+</node>
+<node TEXT=" Historiography of Land Rent Theory" ID="ID_981479120" CREATED="1521952029206" MODIFIED="1521952740955" HGAP_QUANTITY="14.0 pt" VSHIFT_QUANTITY="-21.749999351799516 pt">
+<node TEXT="Marx" ID="ID_906028791" CREATED="1521952745563" MODIFIED="1521978283106">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_321371023" STARTINCLINATION="15;-134;" ENDINCLINATION="216;-146;" STARTARROW="NONE" ENDARROW="NONE"/>
+<node TEXT="Turning Point" ID="ID_519286456" CREATED="1521952753178" MODIFIED="1521952759574"/>
+<node TEXT="Posthumous Writings" ID="ID_1138225526" CREATED="1521952761251" MODIFIED="1521952777733"/>
+<node TEXT="Planned Book" ID="ID_1943508749" CREATED="1521952781334" MODIFIED="1521952785972"/>
+</node>
+<node TEXT="Western-Modern Parochialism" ID="ID_1514659272" CREATED="1521952796639" MODIFIED="1521953103520"/>
+<node TEXT="Micro-empirical fetishism" ID="ID_454474632" CREATED="1521953111580" MODIFIED="1521960303724"/>
+</node>
+<node TEXT="Reviving Rent Theory" ID="ID_1411219178" CREATED="1521078977841" MODIFIED="1521078989432">
+<node TEXT="Two threads: Ricardo" ID="ID_611029630" CREATED="1521081006708" MODIFIED="1521081041624"/>
+<node TEXT="Two threads: Quesnay" ID="ID_1641268517" CREATED="1521081042196" MODIFIED="1521977416938">
+<node TEXT="Marx on Building industry &amp; rent" ID="ID_321371023" CREATED="1521081103498" MODIFIED="1521978498497" HGAP_QUANTITY="36.49999932944777 pt" VSHIFT_QUANTITY="-26.99999919533732 pt"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vol. 2 of <i>Capital</i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="Land Rent in the Crisis" ID="ID_1054780978" CREATED="1521059434624" MODIFIED="1521059453609"/>
+<node TEXT="Supply of Land" ID="ID_267516052" CREATED="1521059455295" MODIFIED="1521059459664">
+<node TEXT="Assume Supply is Fixed" ID="ID_101646702" CREATED="1521060585027" MODIFIED="1521060633515">
+<node TEXT="Near-universal assumption" ID="ID_1491544554" CREATED="1521060638482" MODIFIED="1521060660482">
+<node TEXT="{ | Neutze, 1987 | | |zu:167:IPYN8TGP}" ID="ID_497194113" CREATED="1521061848660" MODIFIED="1521061848660"/>
+<node TEXT="{ | FOLDVARY, 2005 | | |zu:167:YSVH9VNB}" ID="ID_527717133" CREATED="1521312874271" MODIFIED="1521312874271"/>
+</node>
+<node TEXT="Contradictory Examples" ID="ID_1107104698" CREATED="1521060661185" MODIFIED="1521060668618">
+<node TEXT="Southern Louisiana" ID="ID_1064683079" CREATED="1521060671809" MODIFIED="1521060680970"/>
+<node TEXT="Boston" ID="ID_305020983" CREATED="1521060681553" MODIFIED="1521060684850"/>
+<node TEXT="San Francisco(?)" ID="ID_1235169602" CREATED="1521060685313" MODIFIED="1521060697897"/>
+</node>
+</node>
+<node TEXT="Use-value of Land" ID="ID_1029946639" CREATED="1521060783159" MODIFIED="1521060794592"/>
+<node TEXT="Unique Features of Land" ID="ID_146679406" CREATED="1521140916046" MODIFIED="1521140925458">
+<node TEXT="Everyone needs space" ID="ID_1783187656" CREATED="1521140930537" MODIFIED="1521140940197"/>
+<node TEXT="Relational Value" ID="ID_430891221" CREATED="1521140941329" MODIFIED="1521140950923"/>
+<node TEXT="Dual use value" ID="ID_298840742" CREATED="1521140951673" MODIFIED="1521140971579">
+<node TEXT="Consumable" ID="ID_1812904618" CREATED="1521140972824" MODIFIED="1521140980922">
+<node TEXT="Includes access to social consumption" ID="ID_1725352964" CREATED="1521141004472" MODIFIED="1521141013329"/>
+</node>
+<node TEXT="Asset" ID="ID_6265613" CREATED="1521140983280" MODIFIED="1521140986025">
+<node TEXT="Minsky" ID="ID_1636023013" CREATED="1521978829572" MODIFIED="1521978835836"/>
+</node>
+</node>
+</node>
+<node TEXT="Accounting Equation" ID="ID_803640713" CREATED="1521060801478" MODIFIED="1521060906134"/>
+<node TEXT="Kalecki Cycle?" ID="ID_367692360" CREATED="1521060906957" MODIFIED="1521060922333"/>
+</node>
+<node TEXT="Macro?" ID="ID_441122565" CREATED="1521059462303" MODIFIED="1521059481352"/>
+<node TEXT="Rethinking Rent Theory" ID="ID_1477243227" CREATED="1521079014839" MODIFIED="1521079021451">
+<node TEXT="Circular Flows: Need to include revenues" ID="ID_1513781645" CREATED="1522070976734" MODIFIED="1522071020248"/>
+<node TEXT="Land is hard to reproduce, but not non-reducible" ID="ID_286902335" CREATED="1522071023766" MODIFIED="1522071932579">
+<node TEXT="Absolute land rent as quasi-monopoly rent" ID="ID_741287518" CREATED="1522072132921" MODIFIED="1522073502233">
+<node TEXT="Supply &amp; Demand" ID="ID_229024016" CREATED="1522071394484" MODIFIED="1522074073398">
+<node TEXT="The sales effort (Baran &amp; Sweezy)" ID="ID_1333426840" CREATED="1522072171882" MODIFIED="1522074073398" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="-11.249999664723884 pt"/>
+<node TEXT="Spatially Diverse" ID="ID_1183491814" CREATED="1522071502286" MODIFIED="1522074077977">
+<node TEXT="Keno capitalism (Dear)" ID="ID_1355571636" CREATED="1522072186394" MODIFIED="1522074077976" VSHIFT_QUANTITY="-5.999999821186071 pt"/>
+<node TEXT="Affects regional wage rates" ID="ID_334313171" CREATED="1522071514750" MODIFIED="1522074089245">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0066" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1322480670" STARTINCLINATION="-12;30;" ENDINCLINATION="19;-17;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="Affects prices" ID="ID_521222948" CREATED="1522073718852" MODIFIED="1522073920296" HGAP_QUANTITY="7.250000201165669 pt" VSHIFT_QUANTITY="20.999999374151244 pt">
+<node TEXT="Of wages" ID="ID_1322480670" CREATED="1522072371075" MODIFIED="1522073766887"/>
+<node TEXT="Of ordinary commodities" ID="ID_1568957154" CREATED="1522072347139" MODIFIED="1522073753990"/>
+</node>
+</node>
+<node TEXT="Measure w/ MELT" ID="ID_1636185997" CREATED="1522073978593" MODIFIED="1522073985372"/>
+<node TEXT="&quot;Quasi&quot; because land can be reproduced" ID="ID_985927580" CREATED="1522073363615" MODIFIED="1522073502232" HGAP_QUANTITY="-197.499993696809 pt" VSHIFT_QUANTITY="2.9999999105930355 pt">
+<font BOLD="false"/>
+</node>
+</node>
+</node>
+<node TEXT="Land uses" ID="ID_1200256222" CREATED="1522071160344" MODIFIED="1522073542023">
+<node TEXT="Commercial" ID="ID_539406387" CREATED="1522071222569" MODIFIED="1522071231323"/>
+<node TEXT="Residential" ID="ID_1922284135" CREATED="1522071232169" MODIFIED="1522071236755">
+<node TEXT="Tenure" ID="ID_878575280" CREATED="1522071252521" MODIFIED="1522071287036">
+<node TEXT="Renter" ID="ID_1103370358" CREATED="1522071298194" MODIFIED="1522071301444"/>
+<node TEXT="&quot;Owner occupied&quot;" ID="ID_1604495259" CREATED="1522071288714" MODIFIED="1522071646856">
+<node TEXT="Absolute/Quasi-monopoly Rent" ID="ID_963582687" CREATED="1522071349123" MODIFIED="1522073301130" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt"/>
+<node TEXT="Finance" ID="ID_1121489170" CREATED="1522071307906" MODIFIED="1522071317812">
+<node TEXT="Theory of Money" ID="ID_568698119" CREATED="1522071328955" MODIFIED="1522071333565"/>
+</node>
+</node>
+</node>
+<node TEXT="Use value" ID="ID_835182029" CREATED="1522073214491" MODIFIED="1522073218069">
+<node TEXT="Ascriptive traits" ID="ID_1387718781" CREATED="1522072260249" MODIFIED="1522072437774">
+<node TEXT="Reisdential segregation" ID="ID_1204551126" CREATED="1522072586199" MODIFIED="1522072594954">
+<node TEXT="Push" ID="ID_84331143" CREATED="1522072555055" MODIFIED="1522072560569"/>
+<node TEXT="Pull" ID="ID_731387588" CREATED="1522072561175" MODIFIED="1522072564712"/>
+</node>
+</node>
+<node TEXT="Dwelling" ID="ID_1380747422" CREATED="1522073218707" MODIFIED="1522073221982"/>
+<node TEXT="Access to public goods (Tiebout)" ID="ID_323518635" CREATED="1522073225187" MODIFIED="1522073240309"/>
+<node TEXT="Journey to work" ID="ID_1493628521" CREATED="1522073240811" MODIFIED="1522073595500"/>
+</node>
+</node>
+<node TEXT="Other" ID="ID_1533618403" CREATED="1522071237433" MODIFIED="1522071241089"/>
+</node>
+</node>
+<node TEXT="Finance and Speculation" ID="ID_1065552386" CREATED="1521079024427" MODIFIED="1521079031284"/>
+<node TEXT="Conclusion" FOLDED="true" ID="ID_699783340" CREATED="1521059482454" MODIFIED="1521060755656">
+<node TEXT="Broaden land-rent research &amp; theory beyond Western modernity" ID="ID_213648580" CREATED="1521752192065" MODIFIED="1521752230186"/>
+<node TEXT="Develop macro land-rent theory" ID="ID_237051919" CREATED="1521754835570" MODIFIED="1521754867389"/>
+</node>
+</node>
+<node TEXT="Concepts &amp; Issues" POSITION="left" ID="ID_1152515874" CREATED="1521059770777" MODIFIED="1521059783697">
+<edge COLOR="#00ff00"/>
+<node TEXT="Micro/Macro" ID="ID_1984840162" CREATED="1521062194500" MODIFIED="1521062211660">
+<node TEXT="Two Threads" ID="ID_666933949" CREATED="1521081573179" MODIFIED="1521081585852">
+<node TEXT="Ricardo" ID="ID_1265025300" CREATED="1521062222819" MODIFIED="1521062228988"/>
+<node TEXT="Quesnay" ID="ID_901288927" CREATED="1521062232323" MODIFIED="1521062236271"/>
+</node>
+<node TEXT="Rent as a cost" ID="ID_1312529544" CREATED="1521081840000" MODIFIED="1521081859221"/>
+</node>
+<node TEXT="Rural/Urban" ID="ID_797706928" CREATED="1521062267586" MODIFIED="1521062418104"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Marx mentions builders in London using rent to supplement turnover time. What kind of rent? From where?
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Historical/Methodology" ID="ID_740369010" CREATED="1521081322134" MODIFIED="1521081339373">
+<node TEXT="Ancient" ID="ID_898055942" CREATED="1521081348533" MODIFIED="1521081353696"/>
+<node TEXT="Feudal" ID="ID_1863322697" CREATED="1521081366452" MODIFIED="1521081369809"/>
+<node TEXT="Early Modern" ID="ID_1100665589" CREATED="1521081371300" MODIFIED="1521081377350"/>
+<node TEXT="Corporate Capitalism" ID="ID_341915480" CREATED="1521081379419" MODIFIED="1521081405429"/>
+<node TEXT="Neoliberalism" ID="ID_81537412" CREATED="1521081406698" MODIFIED="1521081411300">
+<node TEXT="Use Value" ID="ID_1964046563" CREATED="1521081512387" MODIFIED="1521081527564"/>
+<node TEXT="Asset" ID="ID_747086874" CREATED="1521081529773" MODIFIED="1521081532105"/>
+<node TEXT="Speculation" ID="ID_700363315" CREATED="1521081532976" MODIFIED="1521081536314"/>
+</node>
+</node>
+<node TEXT="Unique Characteristics of Land" ID="ID_742510472" CREATED="1521081889940" MODIFIED="1521081907620"/>
+<node TEXT="Rethinking Rent Theory" ID="ID_644567873" CREATED="1521079014839" MODIFIED="1521079021451">
+<node TEXT="Circular Flows: Need to include revenues" ID="ID_139615269" CREATED="1522070976734" MODIFIED="1522071020248"/>
+<node TEXT="Land is hard to reproduce, but not non-reducible" ID="ID_844785207" CREATED="1522071023766" MODIFIED="1522071932579">
+<node TEXT="Absolute land rent as quasi-monopoly rent" ID="ID_756293356" CREATED="1522072132921" MODIFIED="1522076144962"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      { | Ramirez, 2009 | | |zu:167:MJT8VNCI}
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="{ | Ramirez, 2009 | | |zu:167:MJT8VNCI}" ID="ID_309070404" CREATED="1522075985118" MODIFIED="1522076119683" HGAP_QUANTITY="-205.74999345093983 pt" VSHIFT_QUANTITY="114.74999658018362 pt"/>
+<node TEXT="Supply &amp; Demand" ID="ID_1440800161" CREATED="1522071394484" MODIFIED="1522075951889" HGAP_QUANTITY="6.500000223517411 pt" VSHIFT_QUANTITY="-8.999999731779107 pt">
+<node TEXT="The sales effort (Baran &amp; Sweezy)" ID="ID_634070335" CREATED="1522072171882" MODIFIED="1522074073398" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="-11.249999664723884 pt"/>
+<node TEXT="Spatially Diverse" ID="ID_1553046128" CREATED="1522071502286" MODIFIED="1522074077977">
+<node TEXT="Keno capitalism (Dear)" ID="ID_141141919" CREATED="1522072186394" MODIFIED="1522074077976" VSHIFT_QUANTITY="-5.999999821186071 pt"/>
+<node TEXT="Affects regional wage rates" ID="ID_161462905" CREATED="1522071514750" MODIFIED="1522074142281">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0066" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_241423319" STARTINCLINATION="-12;30;" ENDINCLINATION="19;-17;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="Affects prices" ID="ID_1778535147" CREATED="1522073718852" MODIFIED="1522073920296" HGAP_QUANTITY="7.250000201165669 pt" VSHIFT_QUANTITY="20.999999374151244 pt">
+<node TEXT="Of wages" ID="ID_241423319" CREATED="1522072371075" MODIFIED="1522073766887"/>
+<node TEXT="Of ordinary commodities" ID="ID_1521527316" CREATED="1522072347139" MODIFIED="1522073753990"/>
+</node>
+</node>
+<node TEXT="Measure w/ MELT" ID="ID_1301898045" CREATED="1522073978593" MODIFIED="1522073985372"/>
+<node TEXT="&quot;Quasi&quot; because land can be reproduced" ID="ID_1495835370" CREATED="1522073363615" MODIFIED="1522076144962" HGAP_QUANTITY="-207.24999340623634 pt" VSHIFT_QUANTITY="-113.24999662488709 pt">
+<font BOLD="false"/>
+</node>
+</node>
+</node>
+<node TEXT="Land uses" ID="ID_1888885708" CREATED="1522071160344" MODIFIED="1522073542023">
+<node TEXT="Commercial" ID="ID_888871407" CREATED="1522071222569" MODIFIED="1522071231323"/>
+<node TEXT="Residential" ID="ID_1421746621" CREATED="1522071232169" MODIFIED="1522071236755">
+<node TEXT="Tenure" ID="ID_1193164551" CREATED="1522071252521" MODIFIED="1522071287036">
+<node TEXT="Renter" ID="ID_1250993339" CREATED="1522071298194" MODIFIED="1522071301444"/>
+<node TEXT="&quot;Owner occupied&quot;" ID="ID_1373564986" CREATED="1522071288714" MODIFIED="1522071646856">
+<node TEXT="Use value" ID="ID_1853200794" CREATED="1522076231410" MODIFIED="1522076236108">
+<node TEXT="Asset" ID="ID_1795459736" CREATED="1522076241187" MODIFIED="1522076246868">
+<node TEXT="Finance" ID="ID_1078685593" CREATED="1522071307906" MODIFIED="1522071317812">
+<node TEXT="Theory of Money" ID="ID_719169405" CREATED="1522071328955" MODIFIED="1522071333565"/>
+</node>
+<node TEXT="Speculation/Minsky" ID="ID_1669809480" CREATED="1522076264131" MODIFIED="1522076286021"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Use value" ID="ID_1766934202" CREATED="1522073214491" MODIFIED="1522073218069">
+<node TEXT="Ascriptive traits" ID="ID_1898223467" CREATED="1522072260249" MODIFIED="1522072437774">
+<node TEXT="Reisdential segregation" ID="ID_1682975781" CREATED="1522072586199" MODIFIED="1522072594954">
+<node TEXT="Push" ID="ID_221412430" CREATED="1522072555055" MODIFIED="1522072560569"/>
+<node TEXT="Pull" ID="ID_1634637404" CREATED="1522072561175" MODIFIED="1522072564712"/>
+</node>
+</node>
+<node TEXT="Dwelling" ID="ID_879956175" CREATED="1522073218707" MODIFIED="1522073221982"/>
+<node TEXT="Access to public goods (Tiebout)" ID="ID_1297490976" CREATED="1522073225187" MODIFIED="1522073240309"/>
+<node TEXT="Journey to work" ID="ID_1111951719" CREATED="1522073240811" MODIFIED="1522073595500"/>
+</node>
+</node>
+<node TEXT="Other" ID="ID_344664782" CREATED="1522071237433" MODIFIED="1522071241089"/>
+</node>
+</node>
+</node>
+</node>
+</map>

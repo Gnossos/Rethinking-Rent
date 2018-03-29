@@ -1,0 +1,1015 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+% Bibliography stuff
+%\addbibresource{landrent.bib}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+enumitem
+todonotes
+subequations
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Ontology begins here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Ontology"
+
+\end_inset
+
+Ontology of Land Rent
+\end_layout
+
+\begin_layout Standard
+This section examines some aspects of the ontology of land rent.
+ It builds on Roy Bhaskar's analysis of the relationship between society
+ and individual people (
+\begin_inset CommandInset citation
+LatexCommand citebyear
+after "ch. 5"
+key "bhaskar19900301reclaiming"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand citebyear
+after "ch. 2"
+key "bhaskar2014thepossibility"
+literal "false"
+
+\end_inset
+
+) to establish a similar distinction between what I shall call land rent
+ as ontologically 
+\emph on
+societal
+\emph default
+ and land rent as ontologically 
+\emph on
+proximate
+\emph default
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Thanks to Helen Mederer for suggesting this terminology and classification.
+\end_layout
+
+\end_inset
+
+ Further, I shall argue that for at least half a century the theory of land
+ rent theory has tacitly assumed land rent is ontologically proximate and
+ focused on this aspect of land rent, while neglecting land rent's ontologically
+ societal aspects.
+ 
+\end_layout
+
+\begin_layout Standard
+To establish this, this section also offers a brief historical sketch of
+ land rent both as a social practice and as a theorized object in land-rent
+ theories.
+ This sketch presents various stylized facts characterizing land rent and
+ its comprehension over time and primarily serves two purposes.
+ 
+\end_layout
+
+\begin_layout Standard
+One is to argue that contemporary land-rent theory inherited neoclassical
+ urban economics' singular focus on the 
+\emph on
+proximate
+\emph default
+ aspect of land-rent.
+ In her classic assessment of the state of land-rent theory during the 1970s
+ and 1980s, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "276"
+key "haila1990thetheory"
+literal "false"
+
+\end_inset
+
+ was absolutely right to criticize scholars for adhering 
+\begin_inset Quotes eld
+\end_inset
+
+dogmatically to the classical authorities,
+\begin_inset Quotes erd
+\end_inset
+
+ and, as were other scholars, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "193"
+key "gottdiener1985thesocial"
+literal "false"
+
+\end_inset
+
+ was correct to criticize the practice of analyzing 
+\begin_inset Quotes eld
+\end_inset
+
+the articulation of capital and space ...
+ using nineteenth-century concepts derived from agricultural production.
+\begin_inset Quotes erd
+\end_inset
+
+ But classical political economy also dealt with societal aspects of land
+ rent, which were not inherently wedded to agriculture.
+ Neoclassical economics initially eliminated land rent as a distinct economic
+ category by merging it with capital, but in the 1960s neoclassical urban
+ economists resussitated it to analyze urban morphology: they employed it
+ as a 
+\emph on
+microeconomic
+\emph default
+ concept to explain 
+\emph on
+intraurban
+\emph default
+ residential social patterns.
+ In other words, they solely considered its 
+\emph on
+proximate
+\emph default
+ aspect and completely disregarded its 
+\emph on
+societal
+\emph default
+ aspect.
+ During the Marxist ascendancy that followed in the 1970s, scholars in geography
+ and urban studies heavily criticized and rejected neoclassical economics
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "scott2000economic"
+literal "false"
+
+\end_inset
+
+ but nonetheless inhertited its problematic and, to a large extent, sought
+ to employ Marxist theories of land rent in opposition to and as alternative
+ to the neoclassical 
+\emph on
+bête noire
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+The other purpose is to trace the path of land-rent theory's development
+ through Marx, who influenced it twice.
+ Once was during his lifetime, when he wrestled with the legacy of Ricardo's
+ theory of differenential rent, and shortly after his death.
+ Marx wrote various drafts and notes to himself about land rent while he
+ was still alive, but he himself never published these ideas.
+ Instead, Engels collected, edited, and organized them and published them
+ after Marx's death as Volume III of 
+\emph on
+Capital
+\emph default
+ and what became known as 
+\emph on
+Theories of Surplus Value
+\emph default
+.
+ This remains Marx's most extensive writing on land rent and became the
+ core of what, during and after the critical turn of the 1970s, scholars
+ understood to be his land-rent theory.
+\end_layout
+
+\begin_layout Standard
+But like the scholars of the 1970s who developed land-rent theory largely
+ in relation to their neoclassical predacessors, Marx wrote in relation
+ to the classical economists, primarily Ricardo, and focused heavily on
+ their accounts of mechanisms by which land rent is extracted.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Emerges,
+\begin_inset Quotes erd
+\end_inset
+
+ to use Haila's terminology.
+\end_layout
+
+\end_inset
+
+ In other words, his published work also emphasizes the 
+\emph on
+proximate
+\emph default
+ aspect of land rent.
+ But Marx had great admiration for Quesnay and his famous Tableau économique
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ganguli1972karlmarx"
+literal "false"
+
+\end_inset
+
+, in which land rent plays the central role.
+ Yet the Tableau solely deals with what I am calling the 
+\emph on
+societal
+\emph default
+ aspect of land rent.
+ It is unlikely that Marx would hold Quesnay's Tableau in such high esteem
+ and yet never explicitly consider land rent's 
+\emph on
+societal
+\emph default
+ ontological properties.
+ He intended to devote an entire volume of 
+\emph on
+Capital
+\emph default
+ to land rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "rodolsky1977themaking"
+literal "false"
+
+\end_inset
+
+, and had he lived longer, very likely he would have addressed land rent's
+ societal properties in this volume.
+ Even so, contemporary scholars should not follow Marx dogmatically, like
+ some religious cult.
+ He may have left some hints at how he would have tackled the issue, and
+ these should be critically examined.
+ But even more important, contemporary scholars must start paying attention
+ to the societal aspects of land rent and develop an appropriate land-rent
+ theory suitable for the twenty-first century.
+\end_layout
+
+\begin_layout Subsection
+Bhaskar's Analysis of the Society/Person Relation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Above here is new.
+ Below is resource.
+ The purpose is to make text appear after title page.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To see why this is likely to be so, a brief review of the history of land-rent
+ theory within the larger context of Anglophone economic geography since
+ the mid-twentieth century will be helpful.
+ Considering land-rent theory within this larger context will also provide
+ insight into how the theory came to its current dereliction.
+ Doing so will also be helpful to proposals for moving land-rent theory
+ forward insofar as they should be aware of this history, take the current
+ context into account, and try to avoid mistakes of the past.
+\end_layout
+
+\begin_layout Standard
+Straddling World War II, the dominant approach to geography as a whole in
+ the early postwar period saw the discipline to be akin to history: instead
+ of studying particular kinds of phenomena, historical sciences were thought
+ to study diverse phenomena clustered in time, and spatial sciences similarly
+ studied diverse phenomena clustered in space 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "ix"
+key "hartshorne1949thenature"
+literal "true"
+
+\end_inset
+
+.
+ As such, geography's main task was to study distinct areas, often by breaking
+ things down around specific phenomena (e.g.
+ climate or economy).
+ Occasionally geographers would also study relations between areas.
+ Any generic concepts or general principles would arise from the body of
+ diverse areal studies, and their value, if any, would be proven by their
+ usefulness in application to subsequent areal studies.
+ But in the mid-1950s, this regional-descriptive understanding of the discipline
+ began to be challenged by a nomothetic one.
+ With strong roots in urban and economic geography, this view emphasized
+ theory-building and a search for general laws of spatial organization 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "scott07economic"
+literal "true"
+
+\end_inset
+
+.
+ Combined with the growing availability of digital computers, this gave
+ rise to the quantitative revolution in geography, which dominated the field
+ until the early 1970s.
+\end_layout
+
+\begin_layout Subsection
+An Historical Sketch
+\end_layout
+
+\begin_layout Standard
+To see why this is likely to be so, a brief review of the history of land-rent
+ theory within the larger context of Anglophone economic geography since
+ the mid-twentieth century will be helpful.
+ Considering land-rent theory within this larger context will also provide
+ insight into how the theory came to its current dereliction.
+ Doing so will also be helpful to proposals for moving land-rent theory
+ forward insofar as they should be aware of this history, take the current
+ context into account, and try to avoid mistakes of the past.
+\end_layout
+
+\begin_layout Standard
+Straddling World War II, the dominant approach to geography as a whole in
+ the early postwar period saw the discipline to be akin to history: instead
+ of studying particular kinds of phenomena, historical sciences were thought
+ to study diverse phenomena clustered in time, and spatial sciences similarly
+ studied diverse phenomena clustered in space 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "ix"
+key "hartshorne1949thenature"
+literal "true"
+
+\end_inset
+
+.
+ As such, geography's main task was to study distinct areas, often by breaking
+ things down around specific phenomena (e.g.
+ climate or economy).
+ Occasionally geographers would also study relations between areas.
+ Any generic concepts or general principles would arise from the body of
+ diverse areal studies, and their value, if any, would be proven by their
+ usefulness in application to subsequent areal studies.
+ But in the mid-1950s, this regional-descriptive understanding of the discipline
+ began to be challenged by a nomothetic one.
+ With strong roots in urban and economic geography, this view emphasized
+ theory-building and a search for general laws of spatial organization 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "scott07economic"
+literal "true"
+
+\end_inset
+
+.
+ Combined with the growing availability of digital computers, this gave
+ rise to the quantitative revolution in geography, which dominated the field
+ until the early 1970s.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+There is no apparent inherent reason why a methodologically nomothetic approach
+ is necessarily quantitative.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Earlier version below
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For roughly two decades – between the early 1970s and the early 1990s –
+ a Marxist variant of critical political economy was the dominant paradigm
+ in economic geography 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "scott07economic"
+literal "true"
+
+\end_inset
+
+.
+ This approach came under increasing criticism during the 1980s, and although
+ they never refuted it on its own terms 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "83"
+key "sayer1liberalism"
+literal "true"
+
+\end_inset
+
+, by the early 1990s critics had successfully mounted a two-pronged attack
+ on it.
+ They made a convincing case that actually existing capitalism is much more
+ varied and flexible than what the traditional Marxist theory of the capitalist
+ mode of production portrays and therefore that this theory is insufficient
+ for some of the most important issues of the day.
+ Instead, the field began to emphasize 
+\begin_inset Quotes eld
+\end_inset
+
+middle-range theory
+\begin_inset Quotes erd
+\end_inset
+
+ focusing on capitalism's varied forms and processes.
+ On a second front, critics identified axes of inequality and domination
+ – such as gender or race – that Marxist political economy seemed unable
+ to address with much success.
+ This critique brought formerly peripheral axes of inequality and domination
+ to the center of economic geography, supplanting formerly central concerns,
+ most notably class.
+ The net result was a shift in economic geography away from the received
+ canons of the Marxist tradition, with its emphasis on big, geohistorical
+ issues, and to theories aimed at a smaller scale, with more reliance on
+ more 
+\begin_inset Quotes eld
+\end_inset
+
+local
+\begin_inset Quotes erd
+\end_inset
+
+ and varied investigations, and to a wider variety of research topics with
+ virtually no cohesive framework to tie everything together.
+ As a result, the field became fragmented, atomized, and isolated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "peck2012economic"
+literal "true"
+
+\end_inset
+
+.
+ The very same fragmentation gave the field a tribal character, with each
+ 
+\begin_inset Quotes eld
+\end_inset
+
+tribe
+\begin_inset Quotes erd
+\end_inset
+
+ turning inward, 
+\begin_inset Quotes eld
+\end_inset
+
+transfixed by its own theoretical eccentricities,
+\begin_inset Quotes erd
+\end_inset
+
+ and away from each other, away from developments outside economic geography,
+ and away from the big issues of the day 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "taylor2012textquoteleftisland"
+literal "true"
+
+\end_inset
+
+.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Macroeconomic geographies,
+\begin_inset Quotes erd
+\end_inset
+
+ so prevalent during the heyday of the Marxist ascendancy, became a novelty
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hudson6risingpowers,peck2016macroeconomic"
+literal "true"
+
+\end_inset
+
+.
+ Today the field remains mostly critical of and opposed to mainstream economics,
+ and it frequently borrowed from the Marxist tradition, but in an ad hoc
+ way.
+ So 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "sheppard03geographical"
+literal "true"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+after "320"
+key "sheppard03geographical"
+literal "true"
+
+\end_inset
+
+description of it as a heterodox form of geographical political economy
+ 
+\begin_inset Quotes eld
+\end_inset
+
+haunted by Marx: a post-Marxist subdiscipline
+\begin_inset Quotes erd
+\end_inset
+
+ is apropos.
+ Nonetheless, economic geography is tied together only by weak theoretical
+ threads and lacks a cohesive, unifying theoretical framework.
+\end_layout
+
+\begin_layout Standard
+As one might expect, the specific subject of land rent tracked this path
+ very closely.
+ Between the early 1970s and early 1990s it garnered considerable attention
+ and was the topic of intense debate 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "for a review"
+before "see"
+key "haila1990thetheory"
+literal "true"
+
+\end_inset
+
+.
+ But the seeds of division and discord were already visible 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kerr1996thetheory,haila1990thetheory"
+literal "true"
+
+\end_inset
+
+, and shortly thereafter economic geography's study of land rent underwent
+ a period of 
+\begin_inset Quotes eld
+\end_inset
+
+rupture
+\begin_inset Quotes erd
+\end_inset
+
+ and decline 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+.
+ What was left of it also became more isolated from the discipline of economics,
+ even heterodox economics.
+ This was no great shakes because heterodox economics itself had turned
+ away from land rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hudson2012incorporating"
+literal "true"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "21"
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+attribute this 
+\begin_inset Quotes eld
+\end_inset
+
+state of dilapidation
+\begin_inset Quotes erd
+\end_inset
+
+ to three problem.
+ First, scholars working on land rent failed to retain land rent as an economic
+ category (ostensibly one with its own dynamics) apart from the inevitable
+ contingent mediations present in any concrete situation.
+ Second, because the Marxist tradition (at the time) made a strong distinction
+ between value and price, geographical political economists never developed
+ a mechanism for setting land prices similar to the bid-rent function in
+ mainstream economics.
+ Instead, researchers posited a class of landlords that functioned to set
+ rent levels.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Instead of connecting their research to macro-level analyses and theories
+ of the land-market, researcher have tended to adopt ...
+ the rent categories as [a] political heuristic to expose extractive power
+ relations within an institutional analysis ...
+ or obfuscated the issue of rent altogether.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The 
+\begin_inset Quotes eld
+\end_inset
+
+rent categories
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+are referring to are the ones Marx discusses in Volume 3 of 
+\emph on
+Capital:
+\emph default
+ differential, monopoly, and absolute rent.
+\end_layout
+
+\end_inset
+
+ And third, confusion over absolute rent, failing to integrate it with 
+\begin_inset Quotes eld
+\end_inset
+
+wider understandings of the dynamics of rent
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "22"
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+ join a small group of critical scholars calling for renewed interest in
+ land rent (in addition to 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+ themselves, they cite 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "anderson1classmonopoly"
+literal "true"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "haila2016urbanland"
+literal "true"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "harvey2011theenigma"
+literal "true"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "jager2003urbanland"
+literal "true"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "park2011spatial"
+literal "true"
+
+\end_inset
+
+ as scholars seeking a land-rent revival; although not cited by Ward and
+ Aalbers, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "park2014landrent"
+literal "true"
+
+\end_inset
+
+ not only endorses a return to land rent but does so from a position very
+ similar to that of this paper).
+ What accounts for this recent interest in land rent? The cited sources
+ all give their own reasons for advocating a return to land rent, but in
+ light of the most cataclysmic economic event of our time, the Crisis of
+ the early 21st Century, one might hope this would be a prime motive 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "cf."
+key "taylor2012islandlife"
+literal "true"
+
+\end_inset
+
+.
+ But surprisingly, it is not.
+ Leaving aside 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "jager2003urbanland"
+literal "true"
+
+\end_inset
+
+, published long before the crisis came to light, of the remaining six authors
+ only 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "harvey2011theenigma"
+literal "true"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "park2011spatial,park2014landrent"
+literal "true"
+
+\end_inset
+
+ explicitly connect resurrecting the study of land rent to the crisis.
+ In fact, the term 
+\begin_inset Quotes eld
+\end_inset
+
+crisis
+\begin_inset Quotes erd
+\end_inset
+
+ does not even appear in 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016theshitty"
+literal "true"
+
+\end_inset
+
+, except in the title of one reference.
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Finish discussing the other authors.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This disconnect 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+tie micro, etc.
+ to lack of relation to crisis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Rethinking Rent/references"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local
+inverted 0
+status collapsed
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

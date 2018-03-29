@@ -1,0 +1,482 @@
+%% LyX 2.3.0rc2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[oneside,american,english,oldfontcommands,oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american]{memoir}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\synctex=-1
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\DoubleSpacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+ {hyperref}
+\hypersetup{pdftitle={Rethinking Land Rent: Towards a coherent, pluralist political economy},
+ pdfauthor={Marshall M.A. Feldman},
+ pdfsubject={Land Rent},
+ pdfkeywords={Geographical Political Economy, Circuit of Capital, Land Rent}}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+\@ifundefined{date}{}{\date{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+
+%%%% The following are preliminary customizations for LyX 2.3 built-in BibLaTeX that give, IMHO,
+%%%% a much better format than the default CMS author-date.
+%%%% See Section 3.11 of the Biblatex manual for these and (so many) other commands.
+%%%% 
+%%%% Once satisfied that these things work, put them in the general start-up file.
+%\renewcommand{\nameyeardelim}{\addspace}
+%\renewcommand{\postnotedelim}{\addcolon\space}
+
+\makeatother
+
+\usepackage[style=chicago-authordate,doi=only,bookpages=false,isbn=false,compresspages]{biblatex}
+\addbibresource{\string"/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Rethinking Rent/references.bib\string"}
+\begin{document}
+\begin{comment}
+With myMemoir, don't put title, etc. in LyX.
+\end{comment}
+
+
+\section{\label{sec:Introduction}Introduction}
+
+After over two decades of relative neglect, land-rent theory may be
+experiencing a revival. Several recent essays find existing theory
+deficient, give reasons for its current condition, suggest ways forward,
+and generally urge its renewal. These similarities notwithstanding,
+they differ in their explanations for rent theory's current state
+and their suggestions for renewal. Despite these differences they
+share certain preconceptions, some of which I challenge here.
+
+Perhaps the most fundamental of these is the near universal tendency
+to treat land rent primarily -- almost solely -- from the standpoint
+of what \textcite[27-87]{bhaskar2014thepossibility} calls ``the
+duality of praxis'' while ignoring what I shall call ``societal
+duality.''\footnote{The limitations of language pose a real obstacle here. \citeauthor{bhaskar2014thepossibility}
+actually counterpoises ``Society'' and ``Individuals,'' but this
+is problematic for several reasons. When he discusses ``society''
+he is really discussing social structure. The term ``society'' itself
+commonly describes situations that can be much more ad hoc, informal,
+and intimate: for example, a small group gathering around the water
+cooler in an office and discussing the Academy Awards can be described
+as being social and participating in society. But although social
+structure is present in this setting, describing the setting as ``society''
+would be a misuse of how \citeauthor{bhaskar2014thepossibility} uses
+the term. ``Social structure,'' on the other hand, is also problematic
+because it suggests an ahistorical ``structuralism'' that reifies
+society as structural determinations sweep along lifeless träger who
+are just the bearers of social structure \parencite{thompson1978thepoverty}.
+The notion I am getting at is much more satisfactorily labelled ``societal''
+if one understands this term as connoting that which is large-scale
+and society-wide \parencite{etzioni1968theactive}. So instead of
+\citeauthor{bhaskar2014thepossibility}'s (\citeyear[38]{bhaskar2014thepossibility})
+``duality of structure,'' I use ``societal duality.'' Whichever
+term one uses, what \textcite[37, original emphasis]{bhaskar2014thepossibility}means
+by it is that ``society is both the ever-present \emph{condition}
+(material cause) and the continually repro-duced \emph{outcome} of
+human agency.
+
+But this does not get us entirely out of the woods. Bhaskar's use
+of ``Individuals'' is even more problematic. While it is true that
+some social scientists (and politicians) reduce the human world to
+asocial, ahistorical ``individuals'' (e.g. in methodological individualism),
+thankfully such practice is becoming increasingly rare. Certainly,
+outside of perhaps mainstream/neoclassical economics, the literature
+on land rent is not overly concerned with individuals. But it does
+emphasize firms, industries, government agencies and policies, localities,
+and social actors, even though the latter often stand in as personifications
+for broader social categories (``landlords,'' ``tenants,'' etc.).
+In relation to individuals, \textcite[37-38, original emphasis]{bhaskar2014thepossibility}
+uses ``praxis'' to denote conscious, intentional human activity,
+and it too has a dual character in that ``praxis is both work, that
+is conscious \emph{production}, and (normally unconscious) \emph{reproduction}
+of the conditions of production, that is society.''
+
+While the literature on land rent in economic geography does somewhat
+address this dual character, it also goes beyond land rent as the
+praxis of individuals, organizations, and the like. Nonetheless, it
+rarely gets to the societal level. And there simply is no single English
+term that adequately captures the domain in which the land-rent literature
+operates.
+
+One might think that ``microeconomic,'' ``macroeconomic,'' and
+``meso-'' levels would work, but such terms bring their own problems.
+One is that the first two of these are strongly associated with mainstream
+economics, which economic geography has largely rejected over the
+past forty-five years. Using these terms now could suggest bringing
+mainstream economics back into economic geography. While I do not
+wish to exclude all of mainstream economics out of hand, neither do
+I wish to open the door to wholesale importation of mainstream economics.
+
+Second, the mainstream makes a sharp distinction between microeconomics
+and macroeconomics -- so much so that they sometimes seem to be entirely
+separate. Nonetheless, mainstream macroeconomists has a strong affinity,
+if not an absolute requirement for, ``microfoundations'' in macroeconomics
+\parencite{wren-lewis2012microfounded}. This suggests, and in many
+ways is required by, methodological individualism, which is still
+prominent in mainstream economics \parencite{janssen2006microfoundations}.
+\citeauthor{bhaskar2014thepossibility}'s \parencite*[29-34]{bhaskar2014thepossibility}
+critique of methodological individualism -- and indeed of all ``one-way''
+methodological approaches -- implies that this particular kind of
+connection between the praxis and societal levels is illegitimate.
+So what at first appears to be a bridge between micro and macro is
+in fact a bridge falling down.
+
+Third, in heterodox economics the micro- and macro- levels are at
+once separate yet closely related. \textcite[3]{mearman2007teaching}
+states a basic principle of heterodox economics: ``While theories
+of the individual are uesful, so are theories of aggregate or collective
+outcomes. Further, neither the individual nor the aggregate can be
+understood in isolation from the other.'' This is entirely consistent
+with \citeauthor{bhaskar2014thepossibility}'s methodological analysis,
+which argues that the societal and praxis levels are distinct but
+mutually interdependent. This is an extremely important but very subtle
+difference between heterodox and mainstream economics, and this distinction
+is too easily lost by using the mainstream labels.
+
+Fourth, in economic geography the terms can easily be muddled even
+further. As I am using the term here, ``societal'' refers to society
+as a whole and to processes that actually exist at the level of society
+as a whole. But there necessarily is some correlation between ``society
+as a whole'' and geographic areas, such as nation states, continents,
+or the global economy. So it is easy to use ``macroeconomic geography''
+in a way that confuses and subtly elides societal processes (i.e.
+an ontologically real stratum of the world at which society-wide occur)
+and geographically large-scale processes. For example, economic crises
+are inherently societal but need not be global, while international
+trade is inherently global but need not be societal. For example,
+\textcite{Peck_2016_Macroeconomic} labels as ``macroeconomic geography''
+\citeauthor{hudson2016risingpowers}'s (\citeyear{hudson2016risingpowers})
+paper on uneven global development, even though several of the global
+processes \citeauthor{hudson2016risingpowers} discusses are not macroeconomic
+(in the usual sense) while some macroeconomic processes that are not
+geographically global, such as growing inequality and the decline
+of union density in the U.S., have geographically global ramifications.
+For similar reasons, I am tempted to use ``local'' instead of ``praxis''
+as substitute labels for \citeauthor{bhaskar2014thepossibility}'s
+``individual'' level, but ``local'' is too easily misinterpreted
+as geographically local rather than as individual and immediate social
+relations.}
+
+This might be surprising, but consider Haila's \parencite*{haila1990thetheory}
+seminal review of land rent theory between roughly 1970 and 1990.
+She identifies three groups of questions around which she organizes
+the literature:
+\begin{enumerate}[label=\alph*)]
+\item How does rent emerge?
+\item Who or what are its agents, and what are their behavioral patterns
+and social relations?
+\item What is the economic role of rent?
+\end{enumerate}
+If microeconomics pertains to individuals, firms, etc., the second
+question self-evidently falls within this realm. The first question
+deals with the \emph{mechanisms} by which rent comes into being, and
+to address this question the theory employs behavior and activities
+of 
+
+For example, \textcite[1, 21]{ward2016theshitty} give a thorough
+history of land-rent theory, describing the literature as filled with
+``confusion and conflict'' and needing rennovation, with heterodox
+theory in particular having ``fallen into a state of dilapidation.''
+They attribute this to three characteristic tendencies of geographic
+political economy in the late 1980s. (1) Rejection of structuralism
+undermined concern with land rent as a broad economic category and
+shifted attention to the institutions and actors involved in processes
+related to land rent, as well as to economic rents and fictitious
+capital in general; (2) still heavily influenced Marxian political
+economy, scholars deemphasized market prices in favor of labor values
+and therefore neglected the bid-rent mechanism as a way to understand
+land markets; and (3) confusion about absolute rent hobbled understanding
+of the dynamics of not only land rent but also of other economic rents,
+such as intellectual property rights, that were becoming increasinly
+important in contemporary capitalism. As a way to move forward, \citeauthor{ward2016theshitty}
+propose a broad, if sketchy, theoretical framework in which variations
+in productivity and utility between land parcels create conditions
+for differential rents, while supply shortages of particular kinds
+of land create conditions for monopoly rents. They insinuate that
+neoclassical theory, with its bid-rent construct, is the best candidate
+for yielding insights into contermporary differential rents and that
+institutional theory can serve the same purpose with monopoly rents.
+A merger of these two approaches could then be redirected to investigate
+``how capital flows through land,'' thereby avoiding the mistake
+of conflating land and capital and exposing contradictions between
+the two.
+
+Others writing on the subject take a similar tack, assessing land-rent
+theory's decrepit condition and suggesting how a revived theory could
+help shed light on crucial contemporary issues. For example, \textcite{anderson2014classmonopoly}
+notes that land rent is almost completely absent from the copious
+literature on neoliberal cities and crisis and ascribes the ``loss
+of interest'' in rent since the 1990s to the cultural turn in urban
+studies, which pointed the field away from more economic topics. He
+then argues that class monopoly rent could be very useful for understanding
+neoliberal cities and their crises. Similarly, \textcite[136-137]{christophers2016forreal}
+describes land (and land rent) as having been ``theoretically side-lined''
+but attributes this to rent's status as ``fictitious capital'' in
+both Marxian and Polanyian traditions: ``Faced with an array of real
+and fictitious commodities and, in particular, of real and fictitious
+capitals ..., is it any wonder that theorists have focused on the
+real stuff and made the fictitious a secondary consideration?'' His
+remedy, therefore, is to jetison the notion of fictitious capital
+and to treat land as a real commodity.\footnote{Elsewhere in his essay \textcite[135]{christophers2016forreal} quotes
+\textcite{elden2010landterrain}, who maintains that land ``is not
+something that can be created but is a scarce resource.'' Accepting
+this common assumption about land and still classifying land as a
+commodity implies rejecting the usual Marxist practice of treating
+``commodities'' as marketed products of labor. Below I argue that
+land \emph{often is} a product of human labor, so that \citeauthor{christophers2016forreal}
+and others are wrong about the supply of land being fixed, permanent,
+and not humanly created and therefore also wrong to use land as justification
+for broadening the concept of a ``commodity'' to include things
+that are not products of human labor.}
+
+\textcite{park2014landrent} is another example. After reviewing debates
+concerning land rent before the period of ``rupture'' in the late
+1980s, \textcite[99]{park2014landrent} describes the subsequent period
+as one of ``premature stagnation'' and attributes this to four causes.\footnote{\textcite{haila1990thetheory} had described land-rent theory as having
+gone through three phases: ``consensus'' during the 1970s, ``transition''
+from the late 1970s to early 1980s, and ``rupture'' after the late
+1980s. She also had interpreted land-rent theory as dealing with (1)
+mechanisms of land-rent extraction, (2) social relations of property
+and rent, and (3) the economic role of land rent. } One is only partial: land-rent mechanisms were neglected because
+interest shifted to the social relations of land rent and to land
+rent's economic role. Geographical political economy's critique and
+rejection of neoclassical urban economics, coupled with the latter's
+emphasis on land-rent mechanisms, only added to this neglect. A second
+cause was failure to come even close to a consensus about absolute
+rent, with differences of opinion about: the necessity of a low organic
+composition of capital for absolute rent to exist; the distinction,
+if any, between absolute rent and monopoly rent; historical conditions
+for absolute rent to be important; and the possibility that something
+resembling absolute rent could arise from transaction costs, monitoring
+costs, and risk compensation. Third, confusion over the distinction
+between rent paid for land versus rent paid for use of a building.
+And fourth, the rupture itself, between what \citeauthor{haila1990thetheory}
+had called ``ideographic'' and ``nomothetic'' rent theorists:
+i.e., those who understand land rent as being highly contingent and
+therefore requiring specific empirical study in concrete historical/institutional
+contexts versus those who believe land rent undercapitalsm has a certain
+general lawfulness. Interestingly, he points out the relevance recent
+work on land rent in mainstream economics has for Marxian and other
+heterodox theories of land rent. \citeauthor{park2014landrent} then
+sketches a way forward through a research program that (1) develops
+a consistent theory of land-rent mechanisms, (2) resolves issues surrounding
+distinctions between absolute and monopoly rents, (3) identifies what
+the ``product of the land'' means in an urban context, and (4) successfully
+translates agrarian theories of land-rent to an urbanized economy. 
+
+While these authors are correct in their diagnoses that land-rent
+theory has been neglected and in a state of decline, their prescriptions
+share one common feature: they all understand land-rent in the context
+of what one might call ``microeconomic geography.''\footnote{With some trepedation, I borrow, or perhaps ape, mainstream economics'
+distinction between microeconomic and macroeconomic. \textcite{Peck_2016_Macroeconomic}
+uses ``macroeconomic geography'' to characterize Hudson's \parencite*{hudson2016risingpowers}
+account of global economic change under neoliberalism. But here ``macro''
+signals large geographic scale (global or continental as opposed to
+neighborhood, local, or perhps regional), whereas in economics it
+distinguishes collective, economy-wide from individual or even industry-wide
+economic processes.}
+
+\paragraph*{For opening paragraph}
+
+\cite{lainton2013rethinking}
+
+\cite{lainton2013theclassical}
+
+\paragraph*{For second paragraph - Macro}
+
+\cite{beitel2016circuits,florida4thereal}
+
+\paragraph*{For elsewhere}
+
+\cite{balardini1demandand}
+
+\cite{emmett1frankh}
+
+\cite{foldvary1themarginalists}
+
+\cite{gaffney2008keeping}
+
+\cite{goodman2008whereare}
+
+\cite{munro2012landand}
+
+\cite{williams2010bichler}
+
+\cite{sungyoonkang2010information}
+
+\cite{ecobomakis2003onabsolute}
+
+\cite{ramirez06marxstheory}
+
+\cite{vercellone2008thenew}
+
+\begin{comment}
+Revision up to here
+\end{comment}
+
+A recent review of the history of land-rent theory characterize it
+as filled with ``confusion''
+
+``c\slash onfusion and conflict,'' and particularly heterodox land-rent
+theory having ``fallen into a state of dilapidation'' and needing
+renovation \parencite[1, 21]{ward2016theshitty}.
+
+'' throughout its history. In particular, they single out contemporary
+as \nocite{ward2016theshitty}(p. 21) and in need of renovation .
+Based on their analysis of the reasons for this decline, they briefly
+offer a blueprint fqor reviving land-rent theory and encourage debate
+around this project.
+
+In this they are not alone. Several other scholars also have recently
+called attention to land-rent theory's decrepit condition and offered
+prescriptions for its renewal. But although they share a general consensus
+regarding land-rent theory's poor condition and the desirability of
+reviving it, they vary both in their diagnoses of what is wrong with
+the theory and in their proposals for reviving it. In some instances,
+such differences may be reconcilable, or even minor, with complementary-but-different
+positions on the subject readily capable of being combined: it is
+a matter of ``both/and.'' In other cases, possibilities for reconciliation
+are not ob\slash vious and different positions seem to be starkly
+opposed: ``either/or'' appears to be the only possibility. In such
+instances, engagement and debate might resolve conflict between positions,
+or at least bring to light why such resolution is impossible. Perhaps
+such debate would result in dropping one approach in favor of another.
+At the very least it could highlight strengths and weaknesses in different
+positions. Yet among the various proposals currently on the table,
+I know of no such debates. Instead, a more ``tribal'' pattern of
+disengagement and isolation seems likely, with different approaches
+going their own ways and ignoring the others.\footnote{This conclusion follows from a particular reading of the history of
+land-rent theory in the larger context of economic geography. See
+Section \ref{sec:History}.}
+
+To some extent the present essay hopes to forestall this by insisting
+on \emph{theoretical coherence}: not only in land-rent theory itself
+but in conjunction with the larger body of heterodox political economy,
+including both geographical political economy and heterodox economics.
+In other words, the essay rethinks land-rent theory in several ways,
+all of which potentially link land-rent theory to broader currents
+of contemporary heterodox political-economy. This is not to say that
+this is the only legitimate way to theorize land-rent: other ways
+are certainly possible and may yield important insights. But a trans-disciplinary
+political-economic approach can be an extraordinarily powerful tool,
+and the challenge for advocates of alternative approaches is to demonstrate
+that any alternative is at least equally powerful. It may be that
+a specific theory of land-rent is better able to explain an isolated
+case, particularly if the theory employs \emph{ad hoc} concepts tailored
+to the case. But the requirement of broader theoretical coherence
+implies that any specific land-rent theory must be consistent with
+and part of a larger theoretical corpus and that the evaluation of
+competing theories of land rent must involve the larger corpus as
+a whole.\footnote{This is not to say that two or more competing theories of land rent
+cannot \emph{both} be consistent with a \emph{single}, broader theoretical
+framework. Such possibilities are always open. But in such cases,
+adjudication between the competitors cannot be confined solely to
+land rent itself and must instead evaluate the competitors \emph{as
+part of} the larger framework. Similarly, a single element in land-rent
+theory may be compatible within two or more broader frameworks. In
+such cases, rather than just letting the land-rent component stand
+by itself or arbitrarily choosing one of the larger frameworks, evaluation
+of alternatives also requires evaluating the single land-rent theory
+in the context of the competing, larger frameworks. }
+
+\subsection{Motivating Concerns}
+
+Several concerns motivate this approach. Most fundamental is the fragmentation
+of economic geography since the early 1990s: growing fragmentation
+over the past two-and-a-half decades contributed to land-rent theory's
+decline three ways. First, to the extent to which land-rent theory
+was present in a corpus of scholarship in which different tendencies
+associated with similar tendencies in the larger body of economic
+geography scholarship, fragmentation in the latter tended to \emph{pulverize}
+land-rent theory, shattering whatever wholeness and cohesiveness it
+might have had. Second, pulverization of land-rent theory encouraged
+different approaches to become isolated from each other, and this
+in turn allowed them to \emph{immunize} themselves from external criticism:
+a given approach could become self-referential and give itself license
+to ignore alternative approaches that might otherwise be its competitors
+or critics. Fragmentation also \emph{impoverished} land-rent theory
+in a number of ways.
+
+\begin{comment}
+Revision up to here
+\end{comment}
+
+It undermined land-rent theory's cohesiveness, and it isolated different
+approaches to economic geography from each other and from important
+strands of heterodox scholarship in other social science disciplines.
+Section \ref{sec:History} below, discusses the history of economic
+geography and land-rent theory and explains how economic geography's
+fragmentation eroded land-rent theory's cohesiveness. As for isolation,
+it had two closely related, detrimental effects. %
+\begin{comment}
+Maybe cite Aalbers \& Christophers on housing.
+\end{comment}
+
+On one hand, fragmentation-\emph{cum}-isolation allows self-referential,
+safe-spaces for scholarship that may seem valid within a self-selected
+intellectual cocoon, but that is obviously invalid, at least without
+major revision, when considered in a larger intellectual context.
+This is not mainly a matter of different paradigms: although debates
+between paradigms can be fruitful and therefore desirable, they are
+extremely complex and difficult because paradigmatic differences are
+so very basic. Instead, within \emph{a common }paradigm, such intellectual
+siloing can prevent incompatible theoretical interpretations from
+having to confront each other, and thereby prevent each from being
+supplanted by the other, combined in a new synthesis, or exposed as
+requiring reconsideration and modification in order to be consistent
+with other, related bodies of scholarship.\footnote{Interestingly, the \emph{Journal of Economic Geography} was established
+in 2001 with the express goal of encouraging interchange between economists
+and economic geographers. But economists contributing to the journal
+have overwhelmingly been mainstream economists, while economic geographers
+mostly have heterodox leanings \cite{sheppard2011geographical}. It
+is therefore unsurprising that in the pages of the journal one can
+see sharp divisions between the two disciplines and seemingly insurmountable
+obstacles in a cross-paradigmatic \foreignlanguage{american}{\emph{methodenstreit}}
+\cite{garretsen2011thejournal}. With some irony, heterodox economists
+-- who are far more likely to have productive interaction with today's
+economic geographers -- have largely been absent from the journal.
+Given how little explicit geography one finds in contemporary heterodox
+economics, this is unsurprising, but it also may reflect the predispositions
+of the journal's economist reviewers to act as gatekeepers, confining
+participation by the economics profession to the mainstream.}
+
+On the other hand, even when a particular theoretical intervention
+is valid on its own terms, siloing cuts it off from other, complementary
+threads within the same theoretical framework. This impoverishes the
+larger framework and all its components. Breaking down such walls
+between ``tribes'' in today's economic geography and between geographical
+political economy itself and related heterodox scholarship in other
+social science disciplines has great potential to enrich all of contemporary
+heterodox political economy. Section \ref{sec:Examples}has several
+examples of how land-rent theory might fruitfully combine with heterodox
+scholarship focused on other topics.
+
+\begin{comment}
+Continue here.
+\end{comment}
+
+Another concern stems from the Crisis of the Early Twenty-First Century,
+or what for the sake of brevity I shall refer to here as ``Crisis-21.''\footnote{Use the footnote from earlier drafts.}
+
+A third concern is closely related to the crisis and the inadequacy
+of most analyses of it with regard to the role of land-rent: land-rent
+theory's preoccupation with micro- and meso-level mechanisms of rent
+extraction and distribution and its almost complete neglect of land
+rent as a macroeconomic and macro-geographical process.
+
+\printbibliography
+
+
+\end{document}

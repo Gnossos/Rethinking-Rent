@@ -1,0 +1,334 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+% Bibliography stuff
+\addbibresource{landrent.bib}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../Land Rent in the Circuit of Capital-5 Master.lyx
+\begin_modules
+biblatex
+changebars
+enumitem
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On September 24, 2008 U.S.
+ President George W.
+ Bush addressed the nation on national TV to announce that the country,
+ indeed the entire global capitalist economy, was 
+\begin_inset Quotes eld
+\end_inset
+
+in the midst of a financial crisis.
+\begin_inset Quotes erd
+\end_inset
+
+ Exactly 
+\emph on
+when
+\emph default
+ the crisis began varies with different observers.
+ Some might designate Bush's speech as the formal start because it marks
+ the beginning of formal government recognition and admission of the existence
+ of a crisis.
+ Others might mark the beginning at the failure of Lehman Brothers, a mega
+ investment bank, in 2007 ?? The National Bureau of Economic Research (NBER)
+ dates the 
+\begin_inset Quotes eld
+\end_inset
+
+Great Recession
+\begin_inset Quotes erd
+\end_inset
+
+ as lasting from ?? 2007 to ?? 2009.
+ Others point to the sudden increase in defaults and foreclosures starting
+ in 2006.
+ An even longer perspective sees it as a crisis of neoliberalism, with the
+ previous recession in 2001 and in the wake of the bursting 
+\begin_inset Quotes eld
+\end_inset
+
+dot-com bubble
+\begin_inset Quotes erd
+\end_inset
+
+ as a harbinger of the subsequent bursting of the housing bubble in 2007
+ and symptomatic of deep problems and contradictions in the neoliberal regime
+ (Duminel & Levy??).
+ Still others identify even longer-term trends, starting in the mid-1960's
+ when profit rates began to fall in the what was then the 
+\begin_inset Quotes eld
+\end_inset
+
+core
+\begin_inset Quotes erd
+\end_inset
+
+ of the global capitalist economy, a downward trend from which capitalism
+ still has not recovered (?? Brenner, others).
+\end_layout
+
+\begin_layout Standard
+Similarly, the crisis evolved and changed form, so designating its 
+\begin_inset Quotes eld
+\end_inset
+
+end
+\begin_inset Quotes erd
+\end_inset
+
+ is equally imprecise.
+ For the NBER it was at the designated end of the Great Recession in 2009.
+ But although the U.S.
+ economy no longer fit NBER's criteria for designating a 
+\begin_inset Quotes eld
+\end_inset
+
+recession,
+\begin_inset Quotes erd
+\end_inset
+
+ no serious analyst denies that Europe's debt crisis is directly tied to
+ the collapse of the U.S.
+ housing bubble.
+ More recently, the rise of right-wing populism and economic nationalism
+ associated with names like Trump, May, and LaPen seems to be another obvious
+ progeny of the crisis.
+ So in many senses the crisis is continuing to evolve but is far from over
+ as of this writing (summer 2017).
+\end_layout
+
+\begin_layout Standard
+These observations underscore the point that rigorously making sense of
+ the crisis is impossible without a theory.
+ Although mainstream economics famously claimed the crisis was unforeseeable
+ (??Nobody saw it coming)
+\begin_inset Quotes erd
+\end_inset
+
+, this is largely an artifact of the mainstream paradigm, with its use of
+ equilibrium, comparative statics, and fundamental change resulting from
+ exogenous 
+\begin_inset Quotes eld
+\end_inset
+
+shocks
+\begin_inset Quotes erd
+\end_inset
+
+ as fundamental organizing concepts.
+ Nonetheless, a rather small group of mainstream economists have studied
+ real estate cycles, perhaps more than scholars from any other academic
+ community, and they may have something to offer our understanding of the
+ housing bubble and its subsequent collapse.
+ Heterodox economists on the other hand go far beyond their mainstream colleague
+s and offer profoundly penetrating theories of economic crises, but their
+ work has thus far largely abstracted from housing (and land) as special
+ elements in crisis formation and, in particular, the ongoing crisis of
+ the early twenty-first century.
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Cite Dumenil & Levy
+\end_layout
+
+\end_inset
+
+ The main exception is the small group of heterodox economists whose work
+ is based on that of Henry George.
+\end_layout
+
+\begin_layout Standard
+Nonetheless, some heterodox economists have been almost prescient in their
+ understanding of such things.
+ In the 1960's, Marxist economists Paul Baran and Paul Sweezy ??(1965) authored
+ a very influential analysis of U.S.
+ capitalism, arguing the increasing domination of the economy by a small
+ number of oligopolistic firms made the natural tendency of such 
+\begin_inset Quotes eld
+\end_inset
+
+monopoly capitalism
+\begin_inset Quotes erd
+\end_inset
+
+ to be one of economic stagnation, which historically had been counteracted
+ only by 
+\begin_inset Quotes eld
+\end_inset
+
+wars and their aftermaths
+\begin_inset Quotes erd
+\end_inset
+
+ and epochal innovations.
+ Historically, the latter had generally be centered around means of communicatio
+ns, such as canals, steamboats, railroads, streetcar lines, and the automobile.
+ Seeking a common thread in in such innovations, Baran and Sweezy write:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capital/references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local References
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

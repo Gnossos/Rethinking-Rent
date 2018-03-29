@@ -1,0 +1,688 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs/}} % Override the one in the general preamble.
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+enumitem
+todonotes
+subequations
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+
+\end_local_layout
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\biblatex_bibstyle chicago-authordate
+\biblatex_citestyle chicago-authordate
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Supply of Land
+\end_layout
+
+\begin_layout Standard
+This section examines the supply of land.
+ To some readers the very idea of 
+\begin_inset Quotes eld
+\end_inset
+
+the supply of land
+\begin_inset Quotes erd
+\end_inset
+
+ may seem strange, almost an oxymoron, because the currently conventional
+ view holds that the supply of land is fixed and permanent.
+ Subsection 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Is-Supply-Fixed"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ addresses this question by using historical evidence from Boston and Coastal
+ Louisiana to refute this dogma and to develop some rudimentary ways of
+ thinking about land supply as variable.
+ In turn, this slips into a discussion of usable land in Subsection 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Usable-Land"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ If land can be produced and supplied, then does it make any sense at all
+ to distinguish land rent from ordinary capitalist profit? Section
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "subsec:Land-Supply,-Rent,"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ takes this up by calling particular attention to the importance of time
+ in the relation between land supply and land rent.
+ The concluding section 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "subsec:Land-and-Crises"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ builds on this and discusses some relations between land, rent, and crises.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Is-Supply-Fixed"
+
+\end_inset
+
+Is Land Supply Permanently Fixed?
+\end_layout
+
+\begin_layout Standard
+A nasty habit of thought begins with the near and familiar and finds similaritie
+s in the distant and strange.
+ It then mistakes these similarities for universals and thereby blinds us
+ to 
+\end_layout
+
+\begin_layout Standard
+In 1901 Frank 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "417"
+key "fetter1901thepassing"
+literal "false"
+
+\end_inset
+
+ summarized what he called the 
+\begin_inset Quotes eld
+\end_inset
+
+conventional view
+\begin_inset Quotes erd
+\end_inset
+
+ of land rent by quoting Alfred Marshall, 
+\begin_inset Quotes eld
+\end_inset
+
+The income derived from the ownership of land and other free gifts of nature
+ is called rent.
+\begin_inset Quotes erd
+\end_inset
+
+ Thus, in the conventional view the distinction between capital and land
+ is that capital consists of 
+\begin_inset Quotes eld
+\end_inset
+
+material things which owe their usefulness to human labour ...
+ and those which owe nothing to it being classed as land.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "418"
+key "fetter1901thepassing"
+literal "false"
+
+\end_inset
+
+ then points to problems with this view: (1) distinguishing between 
+\begin_inset Quotes eld
+\end_inset
+
+nature's gifts
+\begin_inset Quotes erd
+\end_inset
+
+ and products of human labor is practically impossible and (2) this particular
+ distinction between land and capital is useless to 
+\begin_inset Quotes eld
+\end_inset
+
+the practical business man.
+\begin_inset Quotes erd
+\end_inset
+
+ Fetter suggests defenders of the conventional view evade such problems
+ by moving the goalposts: from nature's free gifts to the equally problematic
+ notion that 
+\begin_inset Quotes eld
+\end_inset
+
+land is a fixed stock for all time, while capital is not.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Despite Fetter's trenchant critique of Marshall, both men approached the
+ subject of land rent within the marginalist framework that had launched
+ neoclassical economics scarcely twenty-five years earlier.
+ Since then land rent theory has fragmented.
+ Mainstream, neoclassical economists still rely on marginalism 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., "
+key "clay2017thebidrent"
+literal "false"
+
+\end_inset
+
+, but .
+\end_layout
+
+\begin_layout Standard
+Virtually all contemporary land-rent theory presumes the supply of land
+ is fixed and permanent, and that land itself is a 
+\begin_inset Quotes eld
+\end_inset
+
+free gift of nature
+\begin_inset Quotes erd
+\end_inset
+
+ .
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "3"
+key "ward2016theshitty"
+literal "false"
+
+\end_inset
+
+ trace this belief at least as far back as the 18th century, to the work
+ of the French physiocrats and classical economists, and use it to explain
+ Ricardo's reliance on differential rent:
+\end_layout
+
+\begin_layout Quote
+A labour theory of value holds that the economic value of a commodity depends
+ on how much labour must be spent in order to produce it.
+ It follows from this theory that land cannot command a value in itself
+ as it is 
+\emph on
+permanent and does not require labour to produce
+\emph default
+ [my italics].
+ Ricardo's ([1817]2004) solution was to bring rent theory into accordance
+ with the labour theory of value using the notion of 'differential rent'.
+\end_layout
+
+\begin_layout Standard
+But if the supply of land is neither fixed nor permanent, and more importantly
+ if human labor can increase or decrease the supply of land, produce land
+ or destroy it, then a labor theory of value does not require differential
+ rent, and the latter is therefore is a digression.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Usable-Land"
+
+\end_inset
+
+Usable Land
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Distinctiveness"
+
+\end_inset
+
+Distinctiveness of Land
+\end_layout
+
+\begin_layout Subsubsection
+Spatiality is a Necessity
+\end_layout
+
+\begin_layout Subsubsection
+Land Value is Relational
+\end_layout
+
+\begin_layout Subsubsection
+Speculative Potential
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Land-Supply,-Rent,"
+
+\end_inset
+
+Land Supply, Rent, and Time
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Land-and-Crises"
+
+\end_inset
+
+Land, Rent, and Crises
+\end_layout
+
+\begin_layout Standard
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Which is not to say the concept of differential rent is completely worthless.
+ In other contexts it may in fact be quite useful.
+\end_layout
+
+\begin_layout Plain Layout
+The dogma of a fixed, permanent supply of land appears as 
+\begin_inset Quotes eld
+\end_inset
+
+common sense
+\begin_inset Quotes erd
+\end_inset
+
+ assertions in 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "135"
+key "christophers2016forreal"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "806"
+key "elden2010landterrain"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "334"
+key "harvey2006thelimits"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "591"
+key "li2014whatis"
+literal "false"
+
+\end_inset
+
+ .
+ Some authors allow for a 
+\emph on
+socially
+\emph default
+ variable supply of land embedded in a larger, fixed 
+\emph on
+physical
+\emph default
+ supply of land.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "persky1988arather"
+literal "false"
+
+\end_inset
+
+ model a situation in which the total supply of land is fixed, but monopolistic
+ landowners hold land back from the market, letting some land sit vacant,
+ in order to realize monopoly rents.
+ Still others, like 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "32"
+key "park2011spatial"
+literal "false"
+
+\end_inset
+
+, seem willing to think of 
+\begin_inset Quotes eld
+\end_inset
+
+land itself as a product
+\begin_inset Quotes erd
+\end_inset
+
+ but still insist that 
+\begin_inset Quotes eld
+\end_inset
+
+the supply of land is naturally limited
+\begin_inset Quotes erd
+\end_inset
+
+ so that land may be 
+\begin_inset Quotes eld
+\end_inset
+
+generally assumed to be i a different category of product from others.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+In a review of 19th century concepts of rent, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "17"
+key "larmour1979theconcept"
+literal "false"
+
+\end_inset
+
+ describes more variation than contemporary writers lead us to think.
+ He points out that Ricardo did write of the 
+\begin_inset Quotes eld
+\end_inset
+
+original and indestructable powers of the soil,
+\begin_inset Quotes erd
+\end_inset
+
+ a notion that 
+\begin_inset Quotes eld
+\end_inset
+
+comes to shipwreck on the question of mines,
+\begin_inset Quotes erd
+\end_inset
+
+ which are exhaustible by nature.
+ But Ricardo's notion of an extensive margin implies variability in the
+ supply of land.
+ Among the marginalists, like Walras, Alfred Marshall called land 
+\begin_inset Quotes eld
+\end_inset
+
+a free gift of nature,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+after "3"
+key "ward2016theshitty"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Physiocrats & Smith – land rent was price paid for value nature contributes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is incompatible with LTV
+\end_layout
+
+\begin_layout Itemize
+This implies 
+\begin_inset Quotes eld
+\end_inset
+
+land cannot command a value in itself as it is permanent and does not require
+ labour to produce
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ricardo therefore used differential rent
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+after "135"
+key "christophers2016forreal"
+literal "false"
+
+\end_inset
+
+ approvingly cites 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "806"
+key "elden2010landterrain"
+literal "false"
+
+\end_inset
+
+, who claims that land 
+\begin_inset Quotes eld
+\end_inset
+
+is not something that can be created but is a scarce resource.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bryan1990natural"
+
+\end_inset
+
+ quotes Marx 
+\begin_inset Quotes eld
+\end_inset
+
+so-called permanent improvements ...
+ almost all boil down to giving a particular piece of land ...
+ characteristics that other land somewhere else possesses by nature.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Rethinking Rent/references"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local
+inverted 0
+status collapsed
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

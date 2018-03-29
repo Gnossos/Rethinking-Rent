@@ -1,0 +1,286 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\include{preamble}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt,latin9,utf8
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+A growing consensus claims land-rent theory in economic geography is in
+ deteriorated condition and needs restoration, but there is no consensus
+ on how to proceed or what a restoration should entail.
+ The purpose of this paper is to addresses this issue through a fundamental
+ rethinking of land rent, one that is 
+\emph on
+pluralist
+\emph default
+ in that it incorporates Marxian, Austro-Georgist, and post-Keynesian/Minskyan
+ elements but emphasizes 
+\emph on
+coherence
+\emph default
+ .
+ 
+\end_layout
+
+\begin_layout Abstract
+The paper has three parts.
+ Part 1 begins with an empirical analysis of aggregate land value in the
+ United States from the 1970s to the present and, based on this analysis,
+ argues that land rent was the substance of the real estate bubble leading
+ up to the 2007 financial crash and subsequent crisis of the early 21st
+ century.
+ I then observe that, with a few notable exceptions, economic geographers
+ completely failed to predict the crisis and, after the crash, were largely
+ absent from public discussions of the crisis and its causes.
+ Moreover, land rent has been largely absent from the heterodox literature
+ about the crisis, including almost all of this literature by economic geographe
+rs.
+ From this I conclude that crises and macroeconomic geographical political
+ economy have been missing from the literature on land rent, and any restoration
+ of land rent in economic geography must emphasize land rent as a macroeconomic
+ phenomenon and land rent's role in capitalist crises.
+\end_layout
+
+\begin_layout Abstract
+Next, in Part 2, I trace the history of land-rent theory within economic
+ geography and make two arguments.
+ First, in the 1970s economic geography rejected 
+\begin_inset Quotes eld
+\end_inset
+
+spatial science
+\begin_inset Quotes erd
+\end_inset
+
+ and transitioned to geographical political economy, with a strong basis
+ in Marxism.
+ As part of this transition, economic geographers jettisoned the neoclassical
+ theory of urban land rent and sought Marxian substitutes to explain urban
+ form.
+ This led economic geographers to Marx's writing on land rent published
+ in Volume 3 of 
+\emph on
+Capital
+\emph default
+.
+ But Marx intended to devote an entire volume of 
+\emph on
+Capital
+\emph default
+ to land rent but died before doing so.
+ I argue that such a volume would have more closely resembled Quesnay's
+ 
+\emph on
+Tableau économique
+\emph default
+ than Alonso's bid rent curves.
+ In other words, in their desire to oppose the erstwhile dominant neoclassical
+ theory of urban form with something Marxian, economic geographers were
+ distracted away from a concern with land rent in the overall circulation
+ of capital and capitalism's dynamics and became preoccupied with microeconomic
+ mechanisms for rent extraction in urban contexts.
+ Second, in the 1990s land-rent theory's deterioration coincided with growing
+ fragmentation throughout economic geography itself.
+ This was not accidental: interest in land rent among economic geographers
+ dissolved as they broke up into isolated 
+\begin_inset Quotes eld
+\end_inset
+
+tribes
+\begin_inset Quotes erd
+\end_inset
+
+ defined by other concerns.
+ This pulverized land-rent theory, immunized individual work on land rent
+ from outside criticism and/or augmentation, and thereby impoverished land-rent
+ theory.
+\end_layout
+
+\begin_layout Abstract
+In Part 3, the remainder of the paper suggests a way forward by sketching
+ various loosely related topics.
+ This part begins with a realist examination of the ontological nature of
+ land rent, concluding that land rent exists at both microeconomic and macroecon
+omic – individual and societal – levels, but while its existence at these
+ levels is related, they are not the same.
+ Next, I debunk the widely held belief that land rent arises because the
+ supply of land is fixed.
+ I show that several mechanisms allow the supply of land to vary, and the
+ supply itself is intimately related to use value.
+ Thus, instead of rent arising from the supply of land being fixed in space,
+ it arises from supply being temporarily fixed in space-time and by use.
+ This then becomes the basis for reconsidering the macroeconomics of the
+ Marxian theory of land rent, with land having the potential to be produced
+ as a commodity and entering into the production of all other commodities
+ and into the consumption of all social classes.
+ The fact that as a use-value land can be produced only over long periods
+ of time creates possibilities for capturing land rents and underpins the
+ Austro-Georgist theory of crises driven by real estate cycles.
+ It also opens the possibility of Minskyan asset-price speculation, inflated
+ land-value bubbles, and consequent financial instability.
+ Widespread working-class home ownership adds impetus and severity, as individua
+l households find themselves needing to pay inflated prices for shelter
+ in speculative markets but also having the potential for windfall gains
+ through (government subsidized) home ownership.
+\end_layout
+
+\begin_layout Abstract
+The paper concludes with a discussion of geography and the various ways
+ such macroeconomic dynamics touch the ground, are affected by it, and their
+ contradictions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "../References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,571 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\input{../general-preamble}
+\input{../master-preamble}
+\graphicspath{{../images/}{../graphs}} % Override the one in the general preamble.
+% Bibliography stuff
+\addbibresource{landrent.bib}
+\end_preamble
+\options oneside, article, extrafontsizes, 10pt, latin9, utf8,main=american
+\use_default_options true
+\master ../0-Rethinking Land Rent-Master.lyx
+\begin_modules
+biblatex
+changebars
+enumitem
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch Local References
+\selected 1
+\filename_suffix 1
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+In a recent review of the history of land-rent theory, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "1"
+key "ward2016theshitty"
+
+\end_inset
+
+ characterize the subject as loaded with 
+\begin_inset Quotes eld
+\end_inset
+
+confusion and conflict
+\begin_inset Quotes erd
+\end_inset
+
+ throughout its history.
+ In particular, they single out contemporary heterodox land-rent theory
+ as having 
+\begin_inset Quotes eld
+\end_inset
+
+fallen into a state of dilapidation
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "ward2016theshitty"
+
+\end_inset
+
+(p.
+ 21) and in need of renovation.
+ Based on their analysis of the reasons for this decline, they briefly offer
+ a blueprint for reviving land-rent theory and encourage debate around this
+ project.
+\end_layout
+
+\begin_layout Standard
+In this they are not alone.
+ Several other scholars also have recently called attention to land-rent
+ theory's decrepit condition and offered prescriptions for its renewal.
+ But although they share a general consensus regarding land-rent theory's
+ poor condition and the desirability of reviving it, they vary both in their
+ diagnoses of what is wrong with the theory and in their proposals for reviving
+ it.
+ In some instances, such differences may be reconcilable, or even minor,
+ with complementary-but-different positions on the subject readily capable
+ of being combined: it is a matter of 
+\begin_inset Quotes eld
+\end_inset
+
+both/and.
+\begin_inset Quotes erd
+\end_inset
+
+ In other cases, possibilities for reconciliation are not obvious and different
+ positions seem to be starkly opposed: 
+\begin_inset Quotes eld
+\end_inset
+
+either/or
+\begin_inset Quotes erd
+\end_inset
+
+ appears to be the only possibility.
+ In such instances, engagement and debate might resolve conflict between
+ positions, or at least bring to light why such resolution is impossible.
+ Perhaps such debate would result in dropping one approach in favor of another.
+ At the very least it could highlight strengths and weaknesses in different
+ positions.
+ Yet among the various proposals currently on the table, I know of no such
+ debates.
+ Instead, a more 
+\begin_inset Quotes eld
+\end_inset
+
+tribal
+\begin_inset Quotes erd
+\end_inset
+
+ pattern of disengagement and isolation seems likely, with different approaches
+ going their own ways and ignoring the others.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This conclusion follows from a particular reading of the history of land-rent
+ theory in the larger context of economic geography.
+ See Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:History"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To some extent the present essay hopes to forestall this by insisting on
+ 
+\emph on
+theoretical coherence
+\emph default
+: not only in land-rent theory itself but in conjunction with the larger
+ body of heterodox political economy, including both geographical political
+ economy and heterodox economics.
+ In other words, the essay rethinks land-rent theory in several ways, all
+ of which potentially link land-rent theory to broader currents of contemporary
+ heterodox political-economy.
+ This is not to say that this is the only legitimate way to theorize land-rent:
+ other ways are certainly possible and may yield important insights.
+ But a trans-disciplinary political-economic approach can be an extraordinarily
+ powerful tool, and the challenge for advocates of alternative approaches
+ is to demonstrate that any alternative is at least equally powerful.
+ It may be that a specific theory of land-rent is better able to explain
+ an isolated case, particularly if the theory employs 
+\emph on
+ad hoc
+\emph default
+ concepts tailored to the case.
+ But the requirement of broader theoretical coherence implies that any specific
+ land-rent theory must be consistent with and part of a larger theoretical
+ corpus and that the evaluation of competing theories of land rent must
+ involve the larger corpus as a whole.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is not to say that two or more competing theories of land rent cannot
+ 
+\emph on
+both
+\emph default
+ be consistent with a 
+\emph on
+single
+\emph default
+, broader theoretical framework.
+ Such possibilities are always open.
+ But in such cases, adjudication between the competitors cannot be confined
+ solely to land rent itself and must instead evaluate the competitors 
+\emph on
+as part of
+\emph default
+ the larger framework.
+ Similarly, a single element in land-rent theory may be compatible within
+ two or more broader frameworks.
+ In such cases, rather than just letting the land-rent component stand by
+ itself or arbitrarily choosing one of the larger frameworks, evaluation
+ of alternatives also requires evaluating the single land-rent theory in
+ the context of the competing, larger frameworks.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Motivating Concerns
+\end_layout
+
+\begin_layout Standard
+Several concerns motivate this approach.
+ Most fundamental is the fragmentation of economic geography since the early
+ 1990s: growing fragmentation over the past two-and-a-half decades contributed
+ to land-rent theory's decline three ways.
+ First, to the extent to which land-rent theory was present in a corpus
+ of scholarship in which different tendencies associated with similar tendencies
+ in the larger body of economic geography scholarship, fragmentation in
+ the latter tended to 
+\emph on
+pulverize
+\emph default
+ land-rent theory, shattering whatever wholeness and cohesiveness it might
+ have had.
+ Second, pulverization of land-rent theory encouraged different approaches
+ to become isolated from each other, and this in turn allowed them to 
+\emph on
+immunize
+\emph default
+ themselves from external criticism: a given approach could become self-referent
+ial and give itself license to ignore alternative approaches that might
+ otherwise be its competitors or critics.
+ Fragmentation also 
+\emph on
+impoverished
+\emph default
+ land-rent theory in a number of ways.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Revision up to here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It undermined land-rent theory's cohesiveness, and it isolated different
+ approaches to economic geography from each other and from important strands
+ of heterodox scholarship in other social science disciplines.
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:History"
+
+\end_inset
+
+ below, discusses the history of economic geography and land-rent theory
+ and explains how economic geography's fragmentation eroded land-rent theory's
+ cohesiveness.
+ As for isolation, it had two closely related, detrimental effects.
+ 
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Maybe cite Aalbers & Christophers on housing.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On one hand, fragmentation-
+\emph on
+cum
+\emph default
+-isolation allows self-referential, safe-spaces for scholarship that may
+ seem valid within a self-selected intellectual cocoon, but that is obviously
+ invalid, at least without major revision, when considered in a larger intellect
+ual context.
+ This is not mainly a matter of different paradigms: although debates between
+ paradigms can be fruitful and therefore desirable, they are extremely complex
+ and difficult because paradigmatic differences are so very basic.
+ Instead, within 
+\emph on
+a common 
+\emph default
+paradigm, such intellectual siloing can prevent incompatible theoretical
+ interpretations from having to confront each other, and thereby prevent
+ each from being supplanted by the other, combined in a new synthesis, or
+ exposed as requiring reconsideration and modification in order to be consistent
+ with other, related bodies of scholarship.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Interestingly, the 
+\size normal
+\emph on
+Journal of Economic Geography
+\emph default
+ was established in 2001 with the express goal of encouraging interchange
+ between economists and economic geographers.
+ But economists contributing to the journal have overwhelmingly been mainstream
+ economists, while economic geographers mostly have heterodox leanings 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ It is therefore unsurprising that in the pages of the journal one can see
+ sharp divisions between the two disciplines and seemingly insurmountable
+ obstacles in a cross-paradigmatic 
+\emph on
+\lang ngerman
+methodenstreit
+\emph default
+\lang english
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "garretsen2011thejournal"
+
+\end_inset
+
+.
+ With some irony, heterodox economists – who are far more likely to have
+ productive interaction with today's economic geographers – have largely
+ been absent from the journal.
+ Given how little explicit geography one finds in contemporary heterodox
+ economics, this is unsurprising, but it also may reflect the predispositions
+ of the journal's economist reviewers to act as gatekeepers, confining participa
+tion by the economics profession to the mainstream.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the other hand, even when a particular theoretical intervention is valid
+ on its own terms, siloing cuts it off from other, complementary threads
+ within the same theoretical framework.
+ This impoverishes the larger framework and all its components.
+ Breaking down such walls between 
+\begin_inset Quotes eld
+\end_inset
+
+tribes
+\begin_inset Quotes erd
+\end_inset
+
+ in today's economic geography and between geographical political economy
+ itself and related heterodox scholarship in other social science disciplines
+ has great potential to enrich all of contemporary heterodox political economy.
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Examples"
+
+\end_inset
+
+has several examples of how land-rent theory might fruitfully combine with
+ heterodox scholarship focused on other topics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Continue here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another concern stems from the Crisis of the Early Twenty-First Century,
+ or what for the sake of brevity I shall refer to here as 
+\begin_inset Quotes eld
+\end_inset
+
+Crisis-21.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Use the footnote from earlier drafts.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A third concern is closely related to the crisis and the inadequacy of most
+ analyses of it with regard to the role of land-rent: land-rent theory's
+ preoccupation with micro- and meso-level mechanisms of rent extraction
+ and distribution and its almost complete neglect of land rent as a macroeconomi
+c and macro-geographical process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capital/references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Local References
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
