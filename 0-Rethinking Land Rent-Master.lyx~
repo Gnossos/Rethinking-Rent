@@ -162,12 +162,22 @@ roman{footnote}}
 \begin_layout Standard
 \begin_inset Branch CompletePaper
 inverted 1
-status collapsed
+status open
 
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "0.2 - Leadin/Leadin.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "1-CommentsOnHistory/CommentsOnHistory.lyx"
 
 \end_inset
 

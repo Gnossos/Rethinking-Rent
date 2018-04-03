@@ -177,7 +177,7 @@ filename "0.2 - Leadin/Leadin.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "1-CommentsOnHistory/CommentsOnHistory.lyx"
+filename "1-Historiography/CommentsOnTheHistoriography.lyx"
 
 \end_inset
 
